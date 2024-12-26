@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>cashier_system</name>
+  <version>0.0.0</version>
+  <description>The cashier_system package</description>
+
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>Apache 2.0</license>
+
+  <!-- Dependencies -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Remove redundant dependencies -->
+  <build_depend>rclcpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>rosidl_default_generators</build_depend>
+
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <!-- Optional dependencies -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+</package>
+

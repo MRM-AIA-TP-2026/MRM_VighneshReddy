@@ -1,0 +1,6 @@
+# UpdateInventory.srv
+int32 quantity_sold
+float32 total_price
+---
+bool success
+

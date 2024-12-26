@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.000089] (cashier_system) JobQueued: {'identifier': 'cashier_system', 'dependencies': OrderedDict()}
+[0.000869] (cashier_system) JobStarted: {'identifier': 'cashier_system'}
+[0.007550] (cashier_system) JobProgress: {'identifier': 'cashier_system', 'progress': 'cmake'}
+[0.007707] (cashier_system) Command: {'cmd': ['/usr/bin/cmake', '/home/vighneshreddy/CashierSystem_ws/src/cashier_system', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/vighneshreddy/CashierSystem_ws/install/cashier_system'], 'cwd': '/home/vighneshreddy/CashierSystem_ws/build/cashier_system', 'env': OrderedDict([('LANGUAGE', 'en_IN:en'), ('USER', 'vighneshreddy'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vighneshreddy'), ('OLDPWD', '/home/vighneshreddy/CashierSystem_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1385'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vighneshreddy/CashierSystem_ws/install:/home/vighneshreddy/CashierSystem_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vighneshreddy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vighneshreddy'), ('TERM', 'xterm-mono'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vighneshreddy-ASUS-Vivobook-S-15-S5506MA-S5506MA:@/tmp/.ICE-unix/1343,unix/vighneshreddy-ASUS-Vivobook-S-15-S5506MA-S5506MA:/tmp/.ICE-unix/1343'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fc20667f_e508_4de7_9002_12fef918c512'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FZDHY2'), ('GNOME_TERMINAL_SERVICE', ':1.316'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vighneshreddy/CashierSystem_ws/build/cashier_system'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.051134] (cashier_system) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.087626] (cashier_system) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.092741] (cashier_system) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099828] (-) TimerEvent: {}
+[0.143629] (cashier_system) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.147536] (cashier_system) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.147756] (cashier_system) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.147813] (cashier_system) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.149450] (cashier_system) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199993] (-) TimerEvent: {}
+[0.209810] (cashier_system) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.217178] (cashier_system) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.217462] (cashier_system) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.217636] (cashier_system) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.218674] (cashier_system) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300058] (-) TimerEvent: {}
+[0.326619] (cashier_system) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.376010] (cashier_system) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.394507] (cashier_system) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.396670] (cashier_system) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.400131] (-) TimerEvent: {}
+[0.400454] (cashier_system) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.406606] (cashier_system) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.414722] (cashier_system) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.438386] (cashier_system) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.439372] (cashier_system) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500302] (-) TimerEvent: {}
+[0.503318] (cashier_system) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.516962] (cashier_system) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.545038] (cashier_system) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.549050] (cashier_system) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.600413] (-) TimerEvent: {}
+[0.603943] (cashier_system) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.604498] (cashier_system) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.658642] (cashier_system) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.660063] (cashier_system) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.688070] (cashier_system) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.700520] (-) TimerEvent: {}
+[0.800800] (-) TimerEvent: {}
+[0.854762] (cashier_system) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.900945] (-) TimerEvent: {}
+[1.001222] (-) TimerEvent: {}
+[1.101474] (-) TimerEvent: {}
+[1.106027] (cashier_system) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.186969] (cashier_system) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.201608] (-) TimerEvent: {}
+[1.202537] (cashier_system) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.203110] (cashier_system) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.217356] (cashier_system) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.217541] (cashier_system) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.217634] (cashier_system) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.217718] (cashier_system) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.228877] (cashier_system) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.254944] (cashier_system) StderrLine: {'line': b'CMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):\n'}
+[1.255190] (cashier_system) StderrLine: {'line': b'  ament_target_dependencies() the passed package name\n'}
+[1.255279] (cashier_system) StderrLine: {'line': b"  'cashier_system__rosidl_generator_cpp' was not found before\n"}
+[1.255354] (cashier_system) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.255426] (cashier_system) StderrLine: {'line': b'  CMakeLists.txt:30 (ament_target_dependencies)\n'}
+[1.255496] (cashier_system) StderrLine: {'line': b'\n'}
+[1.255565] (cashier_system) StderrLine: {'line': b'\n'}
+[1.255634] (cashier_system) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.255713] (cashier_system) StdoutLine: {'line': b'See also "/home/vighneshreddy/CashierSystem_ws/build/cashier_system/CMakeFiles/CMakeOutput.log".\n'}
+[1.262035] (cashier_system) CommandEnded: {'returncode': 1}
+[1.277619] (cashier_system) JobEnded: {'identifier': 'cashier_system', 'rc': 1}
+[1.287986] (-) EventReactorShutdown: {}
