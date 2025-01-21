@@ -1,0 +1,236 @@
+[0.057s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.057s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=22, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x73e3908529b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73e390852500>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73e390852500>>, mixin_verb=('build',))
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.144s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vighneshreddy/rover_ws'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo) by extension 'ros'
+[0.152s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo' with type 'ros.ament_cmake' and name 'gazebo'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_position) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_position) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_position) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_position) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_position) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_position) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_position) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_position) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_position) by extension 'ros'
+[0.153s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_position' with type 'ros.ament_python' and name 'robot_position'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_navigation) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_navigation) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_navigation) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_navigation) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_navigation) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_navigation) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_navigation) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_navigation) by extension 'ros'
+[0.153s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rover_navigation' with type 'ros.ament_cmake' and name 'rover_navigation'
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.170s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/vighneshreddy/rover_ws/install/nav2_rover' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.170s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/vighneshreddy/rover_ws/install/gazebo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.170s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/vighneshreddy/rover_ws/install/nav2_rover' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.170s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/vighneshreddy/rover_ws/install/gazebo' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.170s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/vighneshreddy/rover_ws/install
+[0.171s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 349 installed packages in /opt/ros/humble
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'gazebo' build argument 'cmake_args' from command line to 'None'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'gazebo' build argument 'cmake_target' from command line to 'None'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.195s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vighneshreddy/rover_ws/build/gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vighneshreddy/rover_ws/install/gazebo', 'merge_install': False, 'path': '/home/vighneshreddy/rover_ws/src/gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'robot_position' build argument 'cmake_args' from command line to 'None'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'robot_position' build argument 'cmake_target' from command line to 'None'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'robot_position' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'robot_position' build argument 'cmake_clean_cache' from command line to 'False'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'robot_position' build argument 'cmake_clean_first' from command line to 'False'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'robot_position' build argument 'cmake_force_configure' from command line to 'False'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'robot_position' build argument 'ament_cmake_args' from command line to 'None'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'robot_position' build argument 'catkin_cmake_args' from command line to 'None'
+[0.195s] Level 5:colcon.colcon_core.verb:set package 'robot_position' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.195s] DEBUG:colcon.colcon_core.verb:Building package 'robot_position' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vighneshreddy/rover_ws/build/robot_position', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vighneshreddy/rover_ws/install/robot_position', 'merge_install': False, 'path': '/home/vighneshreddy/rover_ws/src/robot_position', 'symlink_install': False, 'test_result_base': None}
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'rover_navigation' build argument 'cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'rover_navigation' build argument 'cmake_target' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'rover_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'rover_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'rover_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'rover_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'rover_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'rover_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'rover_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.196s] DEBUG:colcon.colcon_core.verb:Building package 'rover_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vighneshreddy/rover_ws/build/rover_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vighneshreddy/rover_ws/install/rover_navigation', 'merge_install': False, 'path': '/home/vighneshreddy/rover_ws/src/rover_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.196s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.197s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.197s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vighneshreddy/rover_ws/src/gazebo' with build type 'ament_cmake'
+[0.197s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vighneshreddy/rover_ws/src/gazebo'
+[0.198s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.199s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.199s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.201s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vighneshreddy/rover_ws/src/robot_position' with build type 'ament_python'
+[0.201s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_position', 'ament_prefix_path')
+[0.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vighneshreddy/rover_ws/install/robot_position/share/robot_position/hook/ament_prefix_path.ps1'
+[0.201s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vighneshreddy/rover_ws/install/robot_position/share/robot_position/hook/ament_prefix_path.dsv'
+[0.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vighneshreddy/rover_ws/install/robot_position/share/robot_position/hook/ament_prefix_path.sh'
+[0.202s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.202s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.204s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vighneshreddy/rover_ws/src/rover_navigation' with build type 'ament_cmake'
+[0.204s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vighneshreddy/rover_ws/src/rover_navigation'
+[0.204s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.204s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vighneshreddy/rover_ws/build/gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vighneshreddy/rover_ws/install/robot_position /usr/bin/cmake --build /home/vighneshreddy/rover_ws/build/gazebo -- -j22 -l22
+[0.346s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'robot_position' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.346s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'robot_position' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.346s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vighneshreddy/rover_ws/src/robot_position'
+[0.347s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.347s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vighneshreddy/rover_ws/build/rover_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vighneshreddy/rover_ws/install/robot_position /usr/bin/cmake /home/vighneshreddy/rover_ws/src/rover_navigation -DCMAKE_INSTALL_PREFIX=/home/vighneshreddy/rover_ws/install/rover_navigation
+[0.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vighneshreddy/rover_ws/build/gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vighneshreddy/rover_ws/install/robot_position /usr/bin/cmake --build /home/vighneshreddy/rover_ws/build/gazebo -- -j22 -l22
+[0.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vighneshreddy/rover_ws/build/gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vighneshreddy/rover_ws/install/robot_position /usr/bin/cmake --install /home/vighneshreddy/rover_ws/build/gazebo
+[0.375s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo)
+[0.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vighneshreddy/rover_ws/build/gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vighneshreddy/rover_ws/install/robot_position /usr/bin/cmake --install /home/vighneshreddy/rover_ws/build/gazebo
+[0.377s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/gazebo' for CMake module files
+[0.378s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/gazebo' for CMake config files
+[0.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo', 'cmake_prefix_path')
+[0.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vighneshreddy/rover_ws/install/gazebo/share/gazebo/hook/cmake_prefix_path.ps1'
+[0.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vighneshreddy/rover_ws/install/gazebo/share/gazebo/hook/cmake_prefix_path.dsv'
+[0.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vighneshreddy/rover_ws/install/gazebo/share/gazebo/hook/cmake_prefix_path.sh'
+[0.380s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/gazebo/lib'
+[0.380s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/gazebo/bin'
+[0.380s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/gazebo/lib/pkgconfig/gazebo.pc'
+[0.380s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/gazebo/lib/python3.10/site-packages'
+[0.380s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/gazebo/bin'
+[0.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/vighneshreddy/rover_ws/install/gazebo/share/gazebo/package.ps1'
+[0.381s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vighneshreddy/rover_ws/install/gazebo/share/gazebo/package.dsv'
+[0.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/vighneshreddy/rover_ws/install/gazebo/share/gazebo/package.sh'
+[0.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/vighneshreddy/rover_ws/install/gazebo/share/gazebo/package.bash'
+[0.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/vighneshreddy/rover_ws/install/gazebo/share/gazebo/package.zsh'
+[0.384s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vighneshreddy/rover_ws/install/gazebo/share/colcon-core/packages/gazebo)
+[0.384s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo)
+[0.384s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/gazebo' for CMake module files
+[0.385s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/gazebo' for CMake config files
+[0.385s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo', 'cmake_prefix_path')
+[0.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vighneshreddy/rover_ws/install/gazebo/share/gazebo/hook/cmake_prefix_path.ps1'
+[0.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vighneshreddy/rover_ws/install/gazebo/share/gazebo/hook/cmake_prefix_path.dsv'
+[0.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vighneshreddy/rover_ws/install/gazebo/share/gazebo/hook/cmake_prefix_path.sh'
+[0.387s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/gazebo/lib'
+[0.387s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/gazebo/bin'
+[0.387s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/gazebo/lib/pkgconfig/gazebo.pc'
+[0.387s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/gazebo/lib/python3.10/site-packages'
+[0.387s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/gazebo/bin'
+[0.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/vighneshreddy/rover_ws/install/gazebo/share/gazebo/package.ps1'
+[0.388s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vighneshreddy/rover_ws/install/gazebo/share/gazebo/package.dsv'
+[0.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/vighneshreddy/rover_ws/install/gazebo/share/gazebo/package.sh'
+[0.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/vighneshreddy/rover_ws/install/gazebo/share/gazebo/package.bash'
+[0.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/vighneshreddy/rover_ws/install/gazebo/share/gazebo/package.zsh'
+[0.389s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vighneshreddy/rover_ws/install/gazebo/share/colcon-core/packages/gazebo)
+[0.560s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vighneshreddy/rover_ws/src/robot_position': PYTHONPATH=/home/vighneshreddy/rover_ws/build/robot_position/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vighneshreddy/rover_ws/install/robot_position/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_position build --build-base /home/vighneshreddy/rover_ws/build/robot_position/build install --record /home/vighneshreddy/rover_ws/build/robot_position/install.log --single-version-externally-managed install_data
+[0.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vighneshreddy/rover_ws/build/rover_navigation' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vighneshreddy/rover_ws/install/robot_position /usr/bin/cmake /home/vighneshreddy/rover_ws/src/rover_navigation -DCMAKE_INSTALL_PREFIX=/home/vighneshreddy/rover_ws/install/rover_navigation
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/robot_position' for CMake module files
+[0.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vighneshreddy/rover_ws/src/robot_position' returned '0': PYTHONPATH=/home/vighneshreddy/rover_ws/build/robot_position/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vighneshreddy/rover_ws/install/robot_position/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_position build --build-base /home/vighneshreddy/rover_ws/build/robot_position/build install --record /home/vighneshreddy/rover_ws/build/robot_position/install.log --single-version-externally-managed install_data
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/robot_position' for CMake config files
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/robot_position/lib'
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/robot_position/bin'
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/robot_position/lib/pkgconfig/robot_position.pc'
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/robot_position/lib/python3.10/site-packages'
+[0.718s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_position', 'pythonpath')
+[0.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vighneshreddy/rover_ws/install/robot_position/share/robot_position/hook/pythonpath.ps1'
+[0.719s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vighneshreddy/rover_ws/install/robot_position/share/robot_position/hook/pythonpath.dsv'
+[0.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vighneshreddy/rover_ws/install/robot_position/share/robot_position/hook/pythonpath.sh'
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/robot_position/bin'
+[0.719s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_position)
+[0.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/vighneshreddy/rover_ws/install/robot_position/share/robot_position/package.ps1'
+[0.720s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vighneshreddy/rover_ws/install/robot_position/share/robot_position/package.dsv'
+[0.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/vighneshreddy/rover_ws/install/robot_position/share/robot_position/package.sh'
+[0.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/vighneshreddy/rover_ws/install/robot_position/share/robot_position/package.bash'
+[0.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/vighneshreddy/rover_ws/install/robot_position/share/robot_position/package.zsh'
+[0.721s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vighneshreddy/rover_ws/install/robot_position/share/colcon-core/packages/robot_position)
+[0.721s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rover_navigation)
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/rover_navigation' for CMake module files
+[0.722s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/rover_navigation' for CMake config files
+[0.722s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/rover_navigation/bin'
+[0.722s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/rover_navigation/lib/pkgconfig/rover_navigation.pc'
+[0.722s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/rover_navigation/lib/python3.10/site-packages'
+[0.722s] Level 1:colcon.colcon_core.environment:checking '/home/vighneshreddy/rover_ws/install/rover_navigation/bin'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/vighneshreddy/rover_ws/install/rover_navigation/share/rover_navigation/package.ps1'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vighneshreddy/rover_ws/install/rover_navigation/share/rover_navigation/package.dsv'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/vighneshreddy/rover_ws/install/rover_navigation/share/rover_navigation/package.sh'
+[0.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/vighneshreddy/rover_ws/install/rover_navigation/share/rover_navigation/package.bash'
+[0.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/vighneshreddy/rover_ws/install/rover_navigation/share/rover_navigation/package.zsh'
+[0.723s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vighneshreddy/rover_ws/install/rover_navigation/share/colcon-core/packages/rover_navigation)
+[0.733s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.733s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.733s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[0.733s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.738s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.738s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.738s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.748s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.748s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vighneshreddy/rover_ws/install/local_setup.ps1'
+[0.749s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vighneshreddy/rover_ws/install/_local_setup_util_ps1.py'
+[0.749s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vighneshreddy/rover_ws/install/setup.ps1'
+[0.750s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vighneshreddy/rover_ws/install/local_setup.sh'
+[0.750s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vighneshreddy/rover_ws/install/_local_setup_util_sh.py'
+[0.751s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vighneshreddy/rover_ws/install/setup.sh'
+[0.751s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vighneshreddy/rover_ws/install/local_setup.bash'
+[0.751s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vighneshreddy/rover_ws/install/setup.bash'
+[0.752s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vighneshreddy/rover_ws/install/local_setup.zsh'
+[0.752s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vighneshreddy/rover_ws/install/setup.zsh'

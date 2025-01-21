@@ -1,0 +1,31 @@
+[0.149s] Invoking command in '/home/vighneshreddy/rover_ws/build/rover_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vighneshreddy/rover_ws/install/robot_position /usr/bin/cmake /home/vighneshreddy/rover_ws/src/rover_navigation -DCMAKE_INSTALL_PREFIX=/home/vighneshreddy/rover_ws/install/rover_navigation
+[0.160s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.242s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.258s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.259s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.262s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.267s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.273s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.290s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.291s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.366s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.396s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.403s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.412s] -- Found tf2: 0.25.9 (/opt/ros/humble/share/tf2/cmake)
+[0.414s] -- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.497s] -- Configuring done
+[0.499s] [31mCMake Error at CMakeLists.txt:15 (add_executable):
+[0.499s]   Cannot find source file:
+[0.499s] 
+[0.499s]     src/navigation_node.cpp
+[0.499s] 
+[0.499s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.499s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.500s] 
+[0.500s] [0m
+[0.500s] [31mCMake Error at CMakeLists.txt:15 (add_executable):
+[0.500s]   No SOURCES given to target: navigation_node
+[0.500s] 
+[0.500s] [0m
+[0.500s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.505s] Invoked command in '/home/vighneshreddy/rover_ws/build/rover_navigation' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vighneshreddy/rover_ws/install/robot_position /usr/bin/cmake /home/vighneshreddy/rover_ws/src/rover_navigation -DCMAKE_INSTALL_PREFIX=/home/vighneshreddy/rover_ws/install/rover_navigation

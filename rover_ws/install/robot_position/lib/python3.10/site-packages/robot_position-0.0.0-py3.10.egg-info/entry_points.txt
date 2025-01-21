@@ -1,0 +1,3 @@
+[console_scripts]
+get_position = robot_position.get_position:main
+

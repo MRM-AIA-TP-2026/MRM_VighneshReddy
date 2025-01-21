@@ -1,0 +1,21 @@
+[0.359s] Invoking command in '/home/vighneshreddy/rover_ws/src/robot_position': PYTHONPATH=/home/vighneshreddy/rover_ws/build/robot_position/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vighneshreddy/rover_ws/install/robot_position/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_position build --build-base /home/vighneshreddy/rover_ws/build/robot_position/build install --record /home/vighneshreddy/rover_ws/build/robot_position/install.log --single-version-externally-managed install_data
+[0.486s] running egg_info
+[0.486s] writing ../../build/robot_position/robot_position.egg-info/PKG-INFO
+[0.486s] writing dependency_links to ../../build/robot_position/robot_position.egg-info/dependency_links.txt
+[0.486s] writing entry points to ../../build/robot_position/robot_position.egg-info/entry_points.txt
+[0.487s] writing requirements to ../../build/robot_position/robot_position.egg-info/requires.txt
+[0.487s] writing top-level names to ../../build/robot_position/robot_position.egg-info/top_level.txt
+[0.487s] reading manifest file '../../build/robot_position/robot_position.egg-info/SOURCES.txt'
+[0.488s] writing manifest file '../../build/robot_position/robot_position.egg-info/SOURCES.txt'
+[0.488s] running build
+[0.488s] running build_py
+[0.488s] running install
+[0.488s] running install_lib
+[0.489s] running install_data
+[0.489s] running install_egg_info
+[0.490s] removing '/home/vighneshreddy/rover_ws/install/robot_position/lib/python3.10/site-packages/robot_position-0.0.0-py3.10.egg-info' (and everything under it)
+[0.490s] Copying ../../build/robot_position/robot_position.egg-info to /home/vighneshreddy/rover_ws/install/robot_position/lib/python3.10/site-packages/robot_position-0.0.0-py3.10.egg-info
+[0.490s] running install_scripts
+[0.501s] Installing get_position script to /home/vighneshreddy/rover_ws/install/robot_position/lib/robot_position
+[0.501s] writing list of installed files to '/home/vighneshreddy/rover_ws/build/robot_position/install.log'
+[0.516s] Invoked command in '/home/vighneshreddy/rover_ws/src/robot_position' returned '0': PYTHONPATH=/home/vighneshreddy/rover_ws/build/robot_position/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vighneshreddy/rover_ws/install/robot_position/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_position build --build-base /home/vighneshreddy/rover_ws/build/robot_position/build install --record /home/vighneshreddy/rover_ws/build/robot_position/install.log --single-version-externally-managed install_data
