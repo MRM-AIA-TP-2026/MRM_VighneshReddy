@@ -8,14 +8,12 @@ import os
 def generate_launch_description():
     pkg_rover = get_package_share_directory('gazebo')
     
-    # Include the robot state publisher launch file
     rover_gazebo = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(pkg_rover, 'launch', 'gazebo_launch.py')
         )
     )
     
-    # Launch the navigation node
     navigation_node = Node(
         package='rover_navigation',
         executable='haversine_navigation',

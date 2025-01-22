@@ -1,4 +1,0 @@
-Invoking command in '/home/vighneshreddy/rover_ws/build/gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vighneshreddy/rover_ws/install/robot_position /usr/bin/cmake --build /home/vighneshreddy/rover_ws/build/gazebo -- -j22 -l22
-Invoked command in '/home/vighneshreddy/rover_ws/build/gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vighneshreddy/rover_ws/install/robot_position /usr/bin/cmake --build /home/vighneshreddy/rover_ws/build/gazebo -- -j22 -l22
-Invoking command in '/home/vighneshreddy/rover_ws/build/gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vighneshreddy/rover_ws/install/robot_position /usr/bin/cmake --install /home/vighneshreddy/rover_ws/build/gazebo
-Invoked command in '/home/vighneshreddy/rover_ws/build/gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vighneshreddy/rover_ws/install/robot_position /usr/bin/cmake --install /home/vighneshreddy/rover_ws/build/gazebo

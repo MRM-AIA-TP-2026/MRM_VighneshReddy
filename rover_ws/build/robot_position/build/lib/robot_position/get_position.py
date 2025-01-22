@@ -6,27 +6,24 @@ class OdomListener(Node):
     def __init__(self):
         super().__init__('odom_listener')
         
-        # Timer to control the rate of logging
-        self.timer = self.create_timer(1.0, self.timer_callback)  # Update rate in seconds (e.g., 1 Hz)
-        
-        # Subscriber for odometry data
+        self.timer = self.create_timer(1.0, self.timer_callback)  
+      
         self.subscription = self.create_subscription(
             Odometry,
             '/odom',
             self.odom_callback,
             10)
         
-        self.latest_msg = None  # To store the latest odometry message
+        self.latest_msg = None
 
     def odom_callback(self, msg):
-        # Store the latest message for use in the timer callback
+        
         self.latest_msg = msg
 
     def timer_callback(self):
         if self.latest_msg is None:
-            return  # No data received yet
-        
-        # Process the latest odometry data
+            return  
+
         position = self.latest_msg.pose.pose.position
         orientation = self.latest_msg.pose.pose.orientation
         self.get_logger().info(f"Position: x={position.x}, y={position.y}, z={position.z}")

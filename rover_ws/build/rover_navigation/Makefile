@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vighneshreddy/rover_ws/src/rover_navigation
+CMAKE_SOURCE_DIR = /home/vighneshreddy/MRM_VighneshReddy/rover_ws/src/rover_navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vighneshreddy/rover_ws/build/rover_navigation
+CMAKE_BINARY_DIR = /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/rover_navigation
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vighneshreddy/rover_ws/build/rover_navigation/CMakeFiles /home/vighneshreddy/rover_ws/build/rover_navigation//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/rover_navigation/CMakeFiles /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/rover_navigation//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vighneshreddy/rover_ws/build/rover_navigation/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/rover_navigation/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

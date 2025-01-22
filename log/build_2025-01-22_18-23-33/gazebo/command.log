@@ -1,0 +1,1 @@
+Invoking command in '/home/vighneshreddy/MRM_VighneshReddy/build/gazebo': /usr/bin/cmake /home/vighneshreddy/MRM_VighneshReddy/rover_ws/src/gazebo -DCMAKE_INSTALL_PREFIX=/home/vighneshreddy/MRM_VighneshReddy/install/gazebo

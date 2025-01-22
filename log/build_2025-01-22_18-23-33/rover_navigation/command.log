@@ -1,0 +1,3 @@
+Invoking command in '/home/vighneshreddy/MRM_VighneshReddy/build/rover_navigation': /usr/bin/cmake /home/vighneshreddy/MRM_VighneshReddy/rover_ws/src/rover_navigation -DCMAKE_INSTALL_PREFIX=/home/vighneshreddy/MRM_VighneshReddy/install/rover_navigation
+Invoked command in '/home/vighneshreddy/MRM_VighneshReddy/build/rover_navigation' returned '0': /usr/bin/cmake /home/vighneshreddy/MRM_VighneshReddy/rover_ws/src/rover_navigation -DCMAKE_INSTALL_PREFIX=/home/vighneshreddy/MRM_VighneshReddy/install/rover_navigation
+Invoking command in '/home/vighneshreddy/MRM_VighneshReddy/build/rover_navigation': /usr/bin/cmake --build /home/vighneshreddy/MRM_VighneshReddy/build/rover_navigation -- -j22 -l22

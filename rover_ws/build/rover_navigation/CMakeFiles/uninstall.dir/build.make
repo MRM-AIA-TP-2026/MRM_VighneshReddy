@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vighneshreddy/rover_ws/src/rover_navigation
+CMAKE_SOURCE_DIR = /home/vighneshreddy/MRM_VighneshReddy/rover_ws/src/rover_navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vighneshreddy/rover_ws/build/rover_navigation
+CMAKE_BINARY_DIR = /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/rover_navigation
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/vighneshreddy/rover_ws/build/rover_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vighneshreddy/rover_ws/src/rover_navigation /home/vighneshreddy/rover_ws/src/rover_navigation /home/vighneshreddy/rover_ws/build/rover_navigation /home/vighneshreddy/rover_ws/build/rover_navigation /home/vighneshreddy/rover_ws/build/rover_navigation/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/rover_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vighneshreddy/MRM_VighneshReddy/rover_ws/src/rover_navigation /home/vighneshreddy/MRM_VighneshReddy/rover_ws/src/rover_navigation /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/rover_navigation /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/rover_navigation /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/rover_navigation/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

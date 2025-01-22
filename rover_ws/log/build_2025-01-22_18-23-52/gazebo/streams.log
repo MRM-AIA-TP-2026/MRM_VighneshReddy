@@ -1,0 +1,35 @@
+[0.012s] Invoking command in '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/gazebo': /usr/bin/cmake --build /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/gazebo -- -j22 -l22
+[0.162s] Invoked command in '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/gazebo' returned '0': /usr/bin/cmake --build /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/gazebo -- -j22 -l22
+[0.168s] Invoking command in '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/gazebo': /usr/bin/cmake --install /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/gazebo
+[0.175s] -- Install configuration: ""
+[0.175s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/launch
+[0.175s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/launch/.vscode
+[0.175s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/launch/.vscode/c_cpp_properties.json
+[0.175s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/launch/.vscode/settings.json
+[0.175s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/launch/rviz_launch.py
+[0.175s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/launch/mapping_launch.py
+[0.175s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/launch/gazebo_launch.py
+[0.175s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/launch/map_to_odom.launch.py
+[0.175s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/model
+[0.175s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/model/rover.xacro
+[0.175s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/model/rover.gazebo
+[0.175s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/model/world.world
+[0.175s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/config
+[0.175s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/rviz
+[0.175s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/lib/gazebo/map_to_odom.launch.py
+[0.175s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/ament_index/resource_index/package_run_dependencies/gazebo
+[0.176s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/ament_index/resource_index/parent_prefix_path/gazebo
+[0.176s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/environment/ament_prefix_path.sh
+[0.176s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/environment/ament_prefix_path.dsv
+[0.176s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/environment/path.sh
+[0.176s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/environment/path.dsv
+[0.176s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/local_setup.bash
+[0.176s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/local_setup.sh
+[0.176s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/local_setup.zsh
+[0.176s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/local_setup.dsv
+[0.176s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/package.dsv
+[0.176s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/ament_index/resource_index/packages/gazebo
+[0.176s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/cmake/gazeboConfig.cmake
+[0.176s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/cmake/gazeboConfig-version.cmake
+[0.176s] -- Up-to-date: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/gazebo/share/gazebo/package.xml
+[0.177s] Invoked command in '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/gazebo' returned '0': /usr/bin/cmake --install /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/gazebo

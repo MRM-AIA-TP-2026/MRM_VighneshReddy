@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cashier_system/msg/Bill.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module cashier_system {
+  module msg {
+    struct Bill {
+      int32 bill_number;
+
+      builtin_interfaces::msg::Time timestamp;
+
+      int32 quantity;
+
+      float price;
+
+      float total;
+    };
+  };
+};

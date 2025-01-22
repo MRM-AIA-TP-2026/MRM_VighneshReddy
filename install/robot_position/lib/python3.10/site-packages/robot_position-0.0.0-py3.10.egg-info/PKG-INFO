@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: robot-position
+Version: 0.0.0
+Summary: A package to listen to odometry data and log the robot's position and orientation.
+Home-page: UNKNOWN
+Author: vighneshreddy
+Author-email: vighneshreddysatti@gmail.com
+Maintainer: vighneshreddy
+Maintainer-email: vighneshreddysatti@gmail.com
+License: TODO: License
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+This package subscribes to the /odom topic and logs the robot's position and orientation in the console.
+

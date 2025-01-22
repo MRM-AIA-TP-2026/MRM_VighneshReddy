@@ -1,0 +1,4 @@
+Invoking command in '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/gazebo': /usr/bin/cmake --build /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/gazebo -- -j22 -l22
+Invoked command in '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/gazebo' returned '0': /usr/bin/cmake --build /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/gazebo -- -j22 -l22
+Invoking command in '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/gazebo': /usr/bin/cmake --install /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/gazebo
+Invoked command in '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/gazebo' returned '0': /usr/bin/cmake --install /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/gazebo

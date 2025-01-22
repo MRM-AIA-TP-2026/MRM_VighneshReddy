@@ -1,0 +1,319 @@
+[0.000000] (-) TimerEvent: {}
+[0.000550] (cashier_system) JobQueued: {'identifier': 'cashier_system', 'dependencies': OrderedDict()}
+[0.000642] (gazebo) JobQueued: {'identifier': 'gazebo', 'dependencies': OrderedDict()}
+[0.000673] (robot_position) JobQueued: {'identifier': 'robot_position', 'dependencies': OrderedDict()}
+[0.000701] (rover_navigation) JobQueued: {'identifier': 'rover_navigation', 'dependencies': OrderedDict()}
+[0.000727] (cashier_system) JobStarted: {'identifier': 'cashier_system'}
+[0.003393] (gazebo) JobStarted: {'identifier': 'gazebo'}
+[0.005981] (robot_position) JobStarted: {'identifier': 'robot_position'}
+[0.008842] (rover_navigation) JobStarted: {'identifier': 'rover_navigation'}
+[0.012885] (cashier_system) JobProgress: {'identifier': 'cashier_system', 'progress': 'cmake'}
+[0.013209] (cashier_system) Command: {'cmd': ['/usr/bin/cmake', '/home/vighneshreddy/MRM_VighneshReddy/CashierSystem_ws/src/cashier_system', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/vighneshreddy/MRM_VighneshReddy/install/cashier_system'], 'cwd': '/home/vighneshreddy/MRM_VighneshReddy/build/cashier_system', 'env': OrderedDict([('LANGUAGE', 'en_IN:en'), ('USER', 'vighneshreddy'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vighneshreddy'), ('OLDPWD', '/home/vighneshreddy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1376'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vighneshreddy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vighneshreddy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vighneshreddy-ASUS-Vivobook-S-15-S5506MA-S5506MA:@/tmp/.ICE-unix/1345,unix/vighneshreddy-ASUS-Vivobook-S-15-S5506MA-S5506MA:/tmp/.ICE-unix/1345'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/34ba33fc_63dc_48f9_ad13_610e6635aac7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LBSX02'), ('GNOME_TERMINAL_SERVICE', ':1.270'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vighneshreddy/MRM_VighneshReddy/build/cashier_system'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.014794] (gazebo) JobProgress: {'identifier': 'gazebo', 'progress': 'cmake'}
+[0.015261] (gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/src/gazebo', '-DCMAKE_INSTALL_PREFIX=/home/vighneshreddy/MRM_VighneshReddy/install/gazebo'], 'cwd': '/home/vighneshreddy/MRM_VighneshReddy/build/gazebo', 'env': OrderedDict([('LANGUAGE', 'en_IN:en'), ('USER', 'vighneshreddy'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vighneshreddy'), ('OLDPWD', '/home/vighneshreddy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1376'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vighneshreddy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vighneshreddy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vighneshreddy-ASUS-Vivobook-S-15-S5506MA-S5506MA:@/tmp/.ICE-unix/1345,unix/vighneshreddy-ASUS-Vivobook-S-15-S5506MA-S5506MA:/tmp/.ICE-unix/1345'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/34ba33fc_63dc_48f9_ad13_610e6635aac7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LBSX02'), ('GNOME_TERMINAL_SERVICE', ':1.270'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vighneshreddy/MRM_VighneshReddy/build/gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099844] (-) TimerEvent: {}
+[0.165761] (cashier_system) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.166399] (cashier_system) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.166574] (cashier_system) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.166611] (cashier_system) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.166641] (cashier_system) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.166669] (cashier_system) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.166696] (cashier_system) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.166723] (gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.166838] (gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.166870] (gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.166898] (gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.166975] (gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.167003] (gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.167029] (gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.167056] (cashier_system) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.167083] (gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.167111] (rover_navigation) JobProgress: {'identifier': 'rover_navigation', 'progress': 'cmake'}
+[0.167339] (rover_navigation) Command: {'cmd': ['/usr/bin/cmake', '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/src/rover_navigation', '-DCMAKE_INSTALL_PREFIX=/home/vighneshreddy/MRM_VighneshReddy/install/rover_navigation'], 'cwd': '/home/vighneshreddy/MRM_VighneshReddy/build/rover_navigation', 'env': OrderedDict([('LANGUAGE', 'en_IN:en'), ('USER', 'vighneshreddy'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vighneshreddy'), ('OLDPWD', '/home/vighneshreddy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1376'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vighneshreddy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vighneshreddy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vighneshreddy-ASUS-Vivobook-S-15-S5506MA-S5506MA:@/tmp/.ICE-unix/1345,unix/vighneshreddy-ASUS-Vivobook-S-15-S5506MA-S5506MA:/tmp/.ICE-unix/1345'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/34ba33fc_63dc_48f9_ad13_610e6635aac7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LBSX02'), ('GNOME_TERMINAL_SERVICE', ':1.270'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vighneshreddy/MRM_VighneshReddy/build/rover_navigation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199960] (-) TimerEvent: {}
+[0.206401] (rover_navigation) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.225841] (gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.227718] (cashier_system) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.232027] (gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.232184] (gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.232453] (gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.233744] (cashier_system) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.233879] (gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.233946] (cashier_system) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.234131] (cashier_system) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.235438] (cashier_system) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.244546] (rover_navigation) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.249596] (rover_navigation) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300055] (-) TimerEvent: {}
+[0.301836] (rover_navigation) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.308659] (rover_navigation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.308869] (rover_navigation) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.309294] (rover_navigation) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.311072] (rover_navigation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.330025] (gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.337940] (cashier_system) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.371794] (rover_navigation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.374842] (robot_position) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/robot_position', 'build', '--build-base', '/home/vighneshreddy/MRM_VighneshReddy/build/robot_position/build', 'install', '--record', '/home/vighneshreddy/MRM_VighneshReddy/build/robot_position/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/src/robot_position', 'env': {'LANGUAGE': 'en_IN:en', 'USER': 'vighneshreddy', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vighneshreddy', 'OLDPWD': '/home/vighneshreddy', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1376', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/opt/ros/humble', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vighneshreddy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vighneshreddy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vighneshreddy-ASUS-Vivobook-S-15-S5506MA-S5506MA:@/tmp/.ICE-unix/1345,unix/vighneshreddy-ASUS-Vivobook-S-15-S5506MA-S5506MA:/tmp/.ICE-unix/1345', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/34ba33fc_63dc_48f9_ad13_610e6635aac7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LBSX02', 'GNOME_TERMINAL_SERVICE': ':1.270', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vighneshreddy/MRM_VighneshReddy/build/robot_position', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vighneshreddy/MRM_VighneshReddy/build/robot_position/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vighneshreddy/MRM_VighneshReddy/install/robot_position/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/opt/ros/humble'}, 'shell': False}
+[0.377390] (rover_navigation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.377566] (rover_navigation) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.377744] (rover_navigation) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.379033] (rover_navigation) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.381138] (gazebo) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[0.400206] (-) TimerEvent: {}
+[0.401812] (cashier_system) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.406323] (gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.409039] (gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.413876] (gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.420962] (gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.424827] (cashier_system) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.427449] (cashier_system) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.431943] (gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.432148] (cashier_system) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.438819] (cashier_system) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.447729] (cashier_system) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.458040] (gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.459407] (gazebo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.472496] (cashier_system) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.473869] (cashier_system) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.478140] (rover_navigation) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500318] (-) TimerEvent: {}
+[0.516755] (robot_position) StdoutLine: {'line': b'running egg_info\n'}
+[0.517075] (robot_position) StdoutLine: {'line': b'creating ../../../build/robot_position/robot_position.egg-info\n'}
+[0.517337] (robot_position) StdoutLine: {'line': b'writing ../../../build/robot_position/robot_position.egg-info/PKG-INFO\n'}
+[0.517501] (robot_position) StdoutLine: {'line': b'writing dependency_links to ../../../build/robot_position/robot_position.egg-info/dependency_links.txt\n'}
+[0.517574] (robot_position) StdoutLine: {'line': b'writing entry points to ../../../build/robot_position/robot_position.egg-info/entry_points.txt\n'}
+[0.517638] (robot_position) StdoutLine: {'line': b'writing requirements to ../../../build/robot_position/robot_position.egg-info/requires.txt\n'}
+[0.517699] (robot_position) StdoutLine: {'line': b'writing top-level names to ../../../build/robot_position/robot_position.egg-info/top_level.txt\n'}
+[0.517812] (robot_position) StdoutLine: {'line': b"writing manifest file '../../../build/robot_position/robot_position.egg-info/SOURCES.txt'\n"}
+[0.518358] (robot_position) StdoutLine: {'line': b"reading manifest file '../../../build/robot_position/robot_position.egg-info/SOURCES.txt'\n"}
+[0.518745] (robot_position) StdoutLine: {'line': b"writing manifest file '../../../build/robot_position/robot_position.egg-info/SOURCES.txt'\n"}
+[0.518822] (robot_position) StdoutLine: {'line': b'running build\n'}
+[0.518906] (robot_position) StdoutLine: {'line': b'running build_py\n'}
+[0.518981] (robot_position) StdoutLine: {'line': b'creating /home/vighneshreddy/MRM_VighneshReddy/build/robot_position/build\n'}
+[0.519038] (robot_position) StdoutLine: {'line': b'creating /home/vighneshreddy/MRM_VighneshReddy/build/robot_position/build/lib\n'}
+[0.519093] (robot_position) StdoutLine: {'line': b'creating /home/vighneshreddy/MRM_VighneshReddy/build/robot_position/build/lib/robot_position\n'}
+[0.519165] (robot_position) StdoutLine: {'line': b'copying robot_position/__init__.py -> /home/vighneshreddy/MRM_VighneshReddy/build/robot_position/build/lib/robot_position\n'}
+[0.519243] (robot_position) StdoutLine: {'line': b'copying robot_position/get_position.py -> /home/vighneshreddy/MRM_VighneshReddy/build/robot_position/build/lib/robot_position\n'}
+[0.519298] (robot_position) StdoutLine: {'line': b'running install\n'}
+[0.519375] (robot_position) StdoutLine: {'line': b'running install_lib\n'}
+[0.520244] (robot_position) StdoutLine: {'line': b'creating /home/vighneshreddy/MRM_VighneshReddy/install/robot_position/lib/python3.10/site-packages/robot_position\n'}
+[0.520369] (robot_position) StdoutLine: {'line': b'copying /home/vighneshreddy/MRM_VighneshReddy/build/robot_position/build/lib/robot_position/__init__.py -> /home/vighneshreddy/MRM_VighneshReddy/install/robot_position/lib/python3.10/site-packages/robot_position\n'}
+[0.520458] (robot_position) StdoutLine: {'line': b'copying /home/vighneshreddy/MRM_VighneshReddy/build/robot_position/build/lib/robot_position/get_position.py -> /home/vighneshreddy/MRM_VighneshReddy/install/robot_position/lib/python3.10/site-packages/robot_position\n'}
+[0.520595] (robot_position) StdoutLine: {'line': b'byte-compiling /home/vighneshreddy/MRM_VighneshReddy/install/robot_position/lib/python3.10/site-packages/robot_position/__init__.py to __init__.cpython-310.pyc\n'}
+[0.520712] (robot_position) StdoutLine: {'line': b'byte-compiling /home/vighneshreddy/MRM_VighneshReddy/install/robot_position/lib/python3.10/site-packages/robot_position/get_position.py to get_position.cpython-310.pyc\n'}
+[0.520977] (robot_position) StdoutLine: {'line': b'running install_data\n'}
+[0.521044] (robot_position) StdoutLine: {'line': b'creating /home/vighneshreddy/MRM_VighneshReddy/install/robot_position/share/ament_index/resource_index/ament_package\n'}
+[0.521129] (robot_position) StdoutLine: {'line': b'copying package.xml -> /home/vighneshreddy/MRM_VighneshReddy/install/robot_position/share/ament_index/resource_index/ament_package\n'}
+[0.521185] (robot_position) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.522120] (robot_position) StdoutLine: {'line': b'Copying ../../../build/robot_position/robot_position.egg-info to /home/vighneshreddy/MRM_VighneshReddy/install/robot_position/lib/python3.10/site-packages/robot_position-0.0.0-py3.10.egg-info\n'}
+[0.522458] (robot_position) StdoutLine: {'line': b'running install_scripts\n'}
+[0.524607] (gazebo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.532229] (rover_navigation) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.534959] (cashier_system) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.535202] (robot_position) StdoutLine: {'line': b'Installing get_position script to /home/vighneshreddy/MRM_VighneshReddy/install/robot_position/lib/robot_position\n'}
+[0.535430] (robot_position) StdoutLine: {'line': b"writing list of installed files to '/home/vighneshreddy/MRM_VighneshReddy/build/robot_position/install.log'\n"}
+[0.545657] (gazebo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.550477] (robot_position) CommandEnded: {'returncode': 0}
+[0.555389] (cashier_system) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.557069] (rover_navigation) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.559719] (rover_navigation) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.560859] (robot_position) JobEnded: {'identifier': 'robot_position', 'rc': 0}
+[0.564064] (rover_navigation) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.570717] (rover_navigation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.576514] (gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.579573] (rover_navigation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.580959] (gazebo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.584733] (cashier_system) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.590777] (cashier_system) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.600415] (-) TimerEvent: {}
+[0.603935] (rover_navigation) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.605299] (rover_navigation) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.648473] (gazebo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.648875] (gazebo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.652548] (cashier_system) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.653037] (cashier_system) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.665862] (rover_navigation) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.681054] (rover_navigation) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.700535] (-) TimerEvent: {}
+[0.704589] (rover_navigation) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.709113] (rover_navigation) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.709371] (cashier_system) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.710437] (cashier_system) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.712974] (gazebo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.714272] (gazebo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.745223] (cashier_system) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.755621] (gazebo) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.756514] (gazebo) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.763171] (rover_navigation) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.763669] (rover_navigation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.764136] (gazebo) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[0.800640] (-) TimerEvent: {}
+[0.823942] (rover_navigation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.825111] (rover_navigation) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.844583] (gazebo) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[0.873854] (rover_navigation) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.882025] (rover_navigation) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.885366] (gazebo) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[0.893224] (rover_navigation) StdoutLine: {'line': b'-- Found tf2: 0.25.9 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.896272] (gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.898992] (rover_navigation) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.900701] (-) TimerEvent: {}
+[0.915189] (gazebo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[0.916469] (cashier_system) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.923391] (gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[0.925558] (gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.928811] (gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.929827] (gazebo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.929915] (gazebo) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[0.934118] (gazebo) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[0.944642] (gazebo) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[0.971822] (gazebo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.975720] (gazebo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.981796] (gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.984404] (gazebo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.984508] (gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.986736] (gazebo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.986851] (gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.989121] (gazebo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.989186] (gazebo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.991793] (gazebo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.991867] (gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.994313] (gazebo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.994432] (gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.996887] (rover_navigation) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.997010] (gazebo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.000771] (-) TimerEvent: {}
+[1.003062] (rover_navigation) StdoutLine: {'line': b'-- Generating done\n'}
+[1.005621] (rover_navigation) StdoutLine: {'line': b'-- Build files have been written to: /home/vighneshreddy/MRM_VighneshReddy/build/rover_navigation\n'}
+[1.013192] (rover_navigation) CommandEnded: {'returncode': 0}
+[1.014259] (rover_navigation) JobProgress: {'identifier': 'rover_navigation', 'progress': 'build'}
+[1.014284] (rover_navigation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vighneshreddy/MRM_VighneshReddy/build/rover_navigation', '--', '-j22', '-l22'], 'cwd': '/home/vighneshreddy/MRM_VighneshReddy/build/rover_navigation', 'env': OrderedDict([('LANGUAGE', 'en_IN:en'), ('USER', 'vighneshreddy'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vighneshreddy'), ('OLDPWD', '/home/vighneshreddy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1376'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vighneshreddy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vighneshreddy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vighneshreddy-ASUS-Vivobook-S-15-S5506MA-S5506MA:@/tmp/.ICE-unix/1345,unix/vighneshreddy-ASUS-Vivobook-S-15-S5506MA-S5506MA:/tmp/.ICE-unix/1345'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/34ba33fc_63dc_48f9_ad13_610e6635aac7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LBSX02'), ('GNOME_TERMINAL_SERVICE', ':1.270'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vighneshreddy/MRM_VighneshReddy/build/rover_navigation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.054641] (rover_navigation) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/navigation_node.dir/src/navigation_node.cpp.o\x1b[0m\n'}
+[1.055016] (gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.055841] (gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.056017] (gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.067334] (gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.074072] (gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.076897] (gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.085384] (gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.100876] (-) TimerEvent: {}
+[1.114941] (gazebo) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.120065] (gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.130362] (gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.156140] (gazebo) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.158060] (gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.158557] (gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.172199] (gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.177165] (gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.181680] (cashier_system) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.187437] (gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.200988] (-) TimerEvent: {}
+[1.214519] (gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.216259] (gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.216735] (gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.216963] (gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.218360] (gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.219415] (gazebo) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.226527] (gazebo) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[1.226787] (gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.227940] (gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[1.228214] (gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.228437] (gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.229858] (gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[1.230111] (gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.293890] (gazebo) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[1.297935] (cashier_system) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.300626] (gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.301040] (-) TimerEvent: {}
+[1.310527] (gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.321578] (cashier_system) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.323631] (cashier_system) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.337259] (gazebo) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.341948] (gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.352085] (gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.352570] (cashier_system) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.352688] (cashier_system) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.352749] (cashier_system) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.352802] (cashier_system) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.375190] (cashier_system) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.379978] (gazebo) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.380338] (gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.380819] (gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.381123] (gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.384365] (gazebo) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[1.384626] (gazebo) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[1.395270] (gazebo) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[1.401119] (-) TimerEvent: {}
+[1.421662] (cashier_system) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):\n'}
+[1.421880] (cashier_system) StderrLine: {'line': b'  ament_target_dependencies() the passed package name\n'}
+[1.421949] (cashier_system) StderrLine: {'line': b"  'cashier_system__rosidl_generator_cpp' was not found before\n"}
+[1.422002] (cashier_system) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.422059] (cashier_system) StderrLine: {'line': b'  CMakeLists.txt:30 (ament_target_dependencies)\n'}
+[1.422155] (cashier_system) StderrLine: {'line': b'\n'}
+[1.422206] (cashier_system) StderrLine: {'line': b'\x1b[0m\n'}
+[1.422256] (cashier_system) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.422320] (cashier_system) StdoutLine: {'line': b'See also "/home/vighneshreddy/MRM_VighneshReddy/build/cashier_system/CMakeFiles/CMakeOutput.log".\n'}
+[1.424178] (gazebo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.438040] (cashier_system) CommandEnded: {'returncode': 1}
+[1.453245] (cashier_system) JobEnded: {'identifier': 'cashier_system', 'rc': 1}
+[1.471187] (gazebo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.471441] (gazebo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.471669] (gazebo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.472334] (gazebo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.472863] (gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.475683] (gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[1.477371] (gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/vighneshreddy/MRM_VighneshReddy/build/gazebo\n'}
+[1.485748] (gazebo) JobEnded: {'identifier': 'gazebo', 'rc': 'SIGINT'}
+[1.501289] (-) TimerEvent: {}
+[1.601657] (-) TimerEvent: {}
+[1.702061] (-) TimerEvent: {}
+[1.802446] (-) TimerEvent: {}
+[1.902815] (-) TimerEvent: {}
+[2.003215] (-) TimerEvent: {}
+[2.103616] (-) TimerEvent: {}
+[2.204062] (-) TimerEvent: {}
+[2.304602] (-) TimerEvent: {}
+[2.404985] (-) TimerEvent: {}
+[2.505400] (-) TimerEvent: {}
+[2.605848] (-) TimerEvent: {}
+[2.706311] (-) TimerEvent: {}
+[2.806725] (-) TimerEvent: {}
+[2.907110] (-) TimerEvent: {}
+[3.007529] (-) TimerEvent: {}
+[3.107919] (-) TimerEvent: {}
+[3.208301] (-) TimerEvent: {}
+[3.308722] (-) TimerEvent: {}
+[3.409192] (-) TimerEvent: {}
+[3.509739] (-) TimerEvent: {}
+[3.610180] (-) TimerEvent: {}
+[3.710645] (-) TimerEvent: {}
+[3.811085] (-) TimerEvent: {}
+[3.911586] (-) TimerEvent: {}
+[4.012029] (-) TimerEvent: {}
+[4.112485] (-) TimerEvent: {}
+[4.212850] (-) TimerEvent: {}
+[4.313209] (-) TimerEvent: {}
+[4.413588] (-) TimerEvent: {}
+[4.513952] (-) TimerEvent: {}
+[4.614313] (-) TimerEvent: {}
+[4.714699] (-) TimerEvent: {}
+[4.815068] (-) TimerEvent: {}
+[4.915435] (-) TimerEvent: {}
+[5.015809] (-) TimerEvent: {}
+[5.116230] (-) TimerEvent: {}
+[5.216613] (-) TimerEvent: {}
+[5.316975] (-) TimerEvent: {}
+[5.417332] (-) TimerEvent: {}
+[5.517718] (-) TimerEvent: {}
+[5.618092] (-) TimerEvent: {}
+[5.718475] (-) TimerEvent: {}
+[5.818835] (-) TimerEvent: {}
+[5.919213] (-) TimerEvent: {}
+[6.019619] (-) TimerEvent: {}
+[6.100451] (rover_navigation) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable navigation_node\x1b[0m\n'}
+[6.119720] (-) TimerEvent: {}
+[6.220066] (-) TimerEvent: {}
+[6.320467] (-) TimerEvent: {}
+[6.360061] (rover_navigation) StdoutLine: {'line': b'[100%] Built target navigation_node\n'}
+[6.367643] (rover_navigation) JobEnded: {'identifier': 'rover_navigation', 'rc': 'SIGINT'}
+[6.378476] (-) EventReactorShutdown: {}
