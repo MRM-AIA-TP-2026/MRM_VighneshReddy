@@ -3,17 +3,28 @@
 
 Terminal #1
 cd ~/MRM_VighneshReddy/rover_ws
+
 source /opt/ros/humble/setup.bash 
+
 source install/local_setup.bash
+
 ros2 launch gazebo gazebo_launch.py
 
 Terminal #2
 source /opt/ros/humble/setup.bash
+
 source install/local_setup.bash
+
 ros2 run rover_navigation navigation_node
 
 Terminal #3 (for robot position)
 source /opt/ros/humble/setup.bash
+
+
 source install/local_setup.bash
+
+
 ros2 run robot_position get_position
+
+
 
