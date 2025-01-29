@@ -1,6 +1,0 @@
-source;share/robot_position/hook/pythonpath.ps1
-source;share/robot_position/hook/pythonpath.dsv
-source;share/robot_position/hook/pythonpath.sh
-source;share/robot_position/hook/ament_prefix_path.ps1
-source;share/robot_position/hook/ament_prefix_path.dsv
-source;share/robot_position/hook/ament_prefix_path.sh

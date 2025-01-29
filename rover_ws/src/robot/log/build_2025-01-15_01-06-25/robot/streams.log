@@ -1,0 +1,35 @@
+[0.007s] Invoking command in '/home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/build/robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/build/robot -- -j12 -l12
+[0.041s] Invoked command in '/home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/build/robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/build/robot -- -j12 -l12
+[0.073s] Invoking command in '/home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/build/robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/build/robot
+[0.079s] -- Install configuration: ""
+[0.079s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot//launch
+[0.079s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot//launch/gazebo.launch.py
+[0.079s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot//launch/display.launch.py
+[0.079s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot//launch/robot.launch.py
+[0.079s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot//urdf
+[0.079s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot//urdf/lidar.xacro
+[0.079s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot//urdf/cam.xacro
+[0.080s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot//urdf/material.xacro
+[0.080s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot//urdf/stereo.xacro
+[0.080s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot//urdf/inertial.xacro
+[0.080s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot//urdf/imu.xacro
+[0.080s] -- Installing: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot//urdf/robot.urdf.xacro
+[0.081s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot//urdf/gps.xacro
+[0.081s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot//rviz
+[0.081s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot//rviz/config.rviz
+[0.081s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/ament_index/resource_index/package_run_dependencies/robot
+[0.082s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/ament_index/resource_index/parent_prefix_path/robot
+[0.082s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot/environment/ament_prefix_path.sh
+[0.082s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot/environment/ament_prefix_path.dsv
+[0.082s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot/environment/path.sh
+[0.082s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot/environment/path.dsv
+[0.083s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot/local_setup.bash
+[0.083s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot/local_setup.sh
+[0.083s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot/local_setup.zsh
+[0.083s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot/local_setup.dsv
+[0.083s] -- Installing: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot/package.dsv
+[0.083s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/ament_index/resource_index/packages/robot
+[0.084s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot/cmake/robotConfig.cmake
+[0.084s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot/cmake/robotConfig-version.cmake
+[0.084s] -- Up-to-date: /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/install/robot/share/robot/package.xml
+[0.084s] Invoked command in '/home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/build/robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kumar/MRM_KumarAbhishek/group1_robot/robot_ws/src/robot/build/robot

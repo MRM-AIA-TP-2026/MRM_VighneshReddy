@@ -1,0 +1,137 @@
+[0.000000] (-) TimerEvent: {}
+[0.000490] (robot) JobQueued: {'identifier': 'robot', 'dependencies': OrderedDict()}
+[0.000579] (robot) JobStarted: {'identifier': 'robot'}
+[0.005860] (robot) JobProgress: {'identifier': 'robot', 'progress': 'cmake'}
+[0.006177] (robot) Command: {'cmd': ['/usr/bin/cmake', '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/src/robot', '-DCMAKE_INSTALL_PREFIX=/home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot'], 'cwd': '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot', 'env': OrderedDict([('LANGUAGE', 'en_IN:en'), ('USER', 'vighneshreddy'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vighneshreddy'), ('OLDPWD', '/home/vighneshreddy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1405'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vighneshreddy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vighneshreddy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vighneshreddy-ASUS-Vivobook-S-15-S5506MA-S5506MA:@/tmp/.ICE-unix/1373,unix/vighneshreddy-ASUS-Vivobook-S-15-S5506MA-S5506MA:/tmp/.ICE-unix/1373'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1b7c12f4_b17e_49cb_a500_e0fe1a970bab'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MEIC12'), ('GNOME_TERMINAL_SERVICE', ':1.292'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.045376] (robot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.082344] (robot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.086669] (robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099691] (-) TimerEvent: {}
+[0.132533] (robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.137144] (robot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.137288] (robot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.137382] (robot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.139239] (robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.190922] (robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.195578] (robot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.195939] (robot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.196065] (robot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.197167] (robot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199791] (-) TimerEvent: {}
+[0.300098] (-) TimerEvent: {}
+[0.300359] (robot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.356885] (robot) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[0.382544] (robot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.385449] (robot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.390123] (robot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.397102] (robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.400151] (-) TimerEvent: {}
+[0.406635] (robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.432431] (robot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.433897] (robot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.499418] (robot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.500228] (-) TimerEvent: {}
+[0.516810] (robot) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.546943] (robot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.551211] (robot) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.600353] (-) TimerEvent: {}
+[0.611729] (robot) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.611894] (robot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.667482] (robot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.668792] (robot) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.700483] (-) TimerEvent: {}
+[0.707432] (robot) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.709173] (robot) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.719437] (robot) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[0.800610] (-) TimerEvent: {}
+[0.802734] (robot) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[0.844511] (robot) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[0.855562] (robot) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.876384] (robot) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[0.886383] (robot) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[0.888452] (robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.891786] (robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.892615] (robot) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.892857] (robot) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[0.897312] (robot) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[0.900660] (-) TimerEvent: {}
+[0.906742] (robot) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[0.937455] (robot) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.940971] (robot) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.947690] (robot) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.950422] (robot) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.950543] (robot) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.952728] (robot) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.952859] (robot) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.955172] (robot) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.955276] (robot) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.957757] (robot) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.957874] (robot) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.960532] (robot) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.960591] (robot) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.963111] (robot) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.000763] (-) TimerEvent: {}
+[1.019629] (robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.020648] (robot) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.020962] (robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.033092] (robot) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.038432] (robot) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.043642] (robot) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.055423] (robot) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.083517] (robot) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.087169] (robot) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.097119] (robot) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.100832] (-) TimerEvent: {}
+[1.124238] (robot) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.125299] (robot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.125602] (robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.138296] (robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.143340] (robot) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.153715] (robot) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.182958] (robot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.184572] (robot) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.184859] (robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.185015] (robot) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.185614] (robot) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.186651] (robot) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.195504] (robot) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[1.195745] (robot) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.196748] (robot) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[1.197041] (robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.197258] (robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.198645] (robot) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[1.199021] (robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.200902] (-) TimerEvent: {}
+[1.258886] (robot) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[1.265479] (robot) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.276356] (robot) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.301030] (-) TimerEvent: {}
+[1.304161] (robot) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.309298] (robot) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.320905] (robot) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.350337] (robot) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.350954] (robot) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.351537] (robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.352057] (robot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.355380] (robot) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[1.355663] (robot) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[1.366631] (robot) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[1.397414] (robot) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[1.401114] (-) TimerEvent: {}
+[1.411700] (robot) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.412463] (robot) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.412608] (robot) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.498754] (robot) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[1.499892] (robot) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.11 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.501194] (-) TimerEvent: {}
+[1.502346] (robot) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.502465] (robot) StdoutLine: {'line': b'See also "/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot/CMakeFiles/CMakeOutput.log".\n'}
+[1.502568] (robot) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):\n'}
+[1.502678] (robot) StderrLine: {'line': b'  ament_target_dependencies() the first argument must be a valid target name\n'}
+[1.502757] (robot) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.502831] (robot) StderrLine: {'line': b'  CMakeLists.txt:23 (ament_target_dependencies)\n'}
+[1.502905] (robot) StderrLine: {'line': b'\n'}
+[1.502977] (robot) StderrLine: {'line': b'\x1b[0m\n'}
+[1.510734] (robot) CommandEnded: {'returncode': 1}
+[1.528579] (robot) JobEnded: {'identifier': 'robot', 'rc': 1}
+[1.538922] (-) EventReactorShutdown: {}
