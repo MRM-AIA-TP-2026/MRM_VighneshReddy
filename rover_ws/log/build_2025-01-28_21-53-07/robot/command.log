@@ -1,2 +1,0 @@
-Invoking command in '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot': /usr/bin/cmake /home/vighneshreddy/MRM_VighneshReddy/rover_ws/src/robot -DCMAKE_INSTALL_PREFIX=/home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot
-Invoked command in '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot' returned '1': /usr/bin/cmake /home/vighneshreddy/MRM_VighneshReddy/rover_ws/src/robot -DCMAKE_INSTALL_PREFIX=/home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot

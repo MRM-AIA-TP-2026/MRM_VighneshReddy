@@ -1,0 +1,4 @@
+Invoking command in '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot -- -j22 -l22
+Invoked command in '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot -- -j22 -l22
+Invoking command in '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot
+Invoked command in '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot

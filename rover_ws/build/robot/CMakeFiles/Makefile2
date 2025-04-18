@@ -64,6 +64,9 @@ CMAKE_BINARY_DIR = /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot
 
 # The main recursive "all" target.
 all: CMakeFiles/navigation_node.dir/all
+all: CMakeFiles/pointcloud_preprocessor_node.dir/all
+all: CMakeFiles/pcloa.dir/all
+all: CMakeFiles/compass_node.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +77,9 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/robot_uninstall.dir/clean
 clean: CMakeFiles/navigation_node.dir/clean
+clean: CMakeFiles/pointcloud_preprocessor_node.dir/clean
+clean: CMakeFiles/pcloa.dir/clean
+clean: CMakeFiles/compass_node.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -135,7 +141,7 @@ CMakeFiles/robot_uninstall.dir/clean:
 CMakeFiles/navigation_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigation_node.dir/build.make CMakeFiles/navigation_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigation_node.dir/build.make CMakeFiles/navigation_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot/CMakeFiles --progress-num=1,2 "Built target navigation_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot/CMakeFiles --progress-num=3,4 "Built target navigation_node"
 .PHONY : CMakeFiles/navigation_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -153,6 +159,84 @@ navigation_node: CMakeFiles/navigation_node.dir/rule
 CMakeFiles/navigation_node.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigation_node.dir/build.make CMakeFiles/navigation_node.dir/clean
 .PHONY : CMakeFiles/navigation_node.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pointcloud_preprocessor_node.dir
+
+# All Build rule for target.
+CMakeFiles/pointcloud_preprocessor_node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointcloud_preprocessor_node.dir/build.make CMakeFiles/pointcloud_preprocessor_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointcloud_preprocessor_node.dir/build.make CMakeFiles/pointcloud_preprocessor_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot/CMakeFiles --progress-num=7,8 "Built target pointcloud_preprocessor_node"
+.PHONY : CMakeFiles/pointcloud_preprocessor_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pointcloud_preprocessor_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pointcloud_preprocessor_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot/CMakeFiles 0
+.PHONY : CMakeFiles/pointcloud_preprocessor_node.dir/rule
+
+# Convenience name for target.
+pointcloud_preprocessor_node: CMakeFiles/pointcloud_preprocessor_node.dir/rule
+.PHONY : pointcloud_preprocessor_node
+
+# clean rule for target.
+CMakeFiles/pointcloud_preprocessor_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointcloud_preprocessor_node.dir/build.make CMakeFiles/pointcloud_preprocessor_node.dir/clean
+.PHONY : CMakeFiles/pointcloud_preprocessor_node.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pcloa.dir
+
+# All Build rule for target.
+CMakeFiles/pcloa.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pcloa.dir/build.make CMakeFiles/pcloa.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pcloa.dir/build.make CMakeFiles/pcloa.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot/CMakeFiles --progress-num=5,6 "Built target pcloa"
+.PHONY : CMakeFiles/pcloa.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pcloa.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pcloa.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot/CMakeFiles 0
+.PHONY : CMakeFiles/pcloa.dir/rule
+
+# Convenience name for target.
+pcloa: CMakeFiles/pcloa.dir/rule
+.PHONY : pcloa
+
+# clean rule for target.
+CMakeFiles/pcloa.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pcloa.dir/build.make CMakeFiles/pcloa.dir/clean
+.PHONY : CMakeFiles/pcloa.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/compass_node.dir
+
+# All Build rule for target.
+CMakeFiles/compass_node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compass_node.dir/build.make CMakeFiles/compass_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compass_node.dir/build.make CMakeFiles/compass_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot/CMakeFiles --progress-num=1,2 "Built target compass_node"
+.PHONY : CMakeFiles/compass_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/compass_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/compass_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot/CMakeFiles 0
+.PHONY : CMakeFiles/compass_node.dir/rule
+
+# Convenience name for target.
+compass_node: CMakeFiles/compass_node.dir/rule
+.PHONY : compass_node
+
+# clean rule for target.
+CMakeFiles/compass_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compass_node.dir/build.make CMakeFiles/compass_node.dir/clean
+.PHONY : CMakeFiles/compass_node.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

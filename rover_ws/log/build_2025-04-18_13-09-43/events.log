@@ -1,0 +1,473 @@
+[0.000000] (-) TimerEvent: {}
+[0.000512] (robot) JobQueued: {'identifier': 'robot', 'dependencies': OrderedDict()}
+[0.000550] (robot) JobStarted: {'identifier': 'robot'}
+[0.008801] (robot) JobProgress: {'identifier': 'robot', 'progress': 'cmake'}
+[0.009115] (robot) Command: {'cmd': ['/usr/bin/cmake', '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/src/robot', '-DCMAKE_INSTALL_PREFIX=/home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot'], 'cwd': '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot', 'env': OrderedDict([('LANGUAGE', 'en_IN:en'), ('USER', 'vighneshreddy'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vighneshreddy'), ('OLDPWD', '/home/vighneshreddy'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1539'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vighneshreddy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vighneshreddy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vivobook-s16:@/tmp/.ICE-unix/1511,unix/vivobook-s16:/tmp/.ICE-unix/1511'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7ba4f075_c3ea_48f7_a1fa_97616c16ab47'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099799] (-) TimerEvent: {}
+[0.109671] (robot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.159141] (robot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.166405] (robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199921] (-) TimerEvent: {}
+[0.220913] (robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.225580] (robot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.226099] (robot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.226631] (robot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.228751] (robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.290989] (robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.297206] (robot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.297371] (robot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.297660] (robot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.299987] (-) TimerEvent: {}
+[0.301164] (robot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400122] (-) TimerEvent: {}
+[0.418181] (robot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.494309] (robot) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[0.500297] (-) TimerEvent: {}
+[0.535134] (robot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.539638] (robot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.547179] (robot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.562016] (robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.578505] (robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600420] (-) TimerEvent: {}
+[0.614780] (robot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.617628] (robot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.695508] (robot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.700508] (-) TimerEvent: {}
+[0.718885] (robot) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.751213] (robot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.759970] (robot) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.800748] (-) TimerEvent: {}
+[0.822487] (robot) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.822948] (robot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.876161] (robot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.877177] (robot) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.900851] (-) TimerEvent: {}
+[0.938393] (robot) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.939505] (robot) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.952142] (robot) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.000977] (-) TimerEvent: {}
+[1.041768] (robot) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[1.085641] (robot) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[1.101047] (-) TimerEvent: {}
+[1.105434] (robot) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.128047] (robot) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.138836] (robot) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.142788] (robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.149108] (robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.150717] (robot) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.151023] (robot) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.156507] (robot) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.167843] (robot) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.197236] (robot) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.201135] (robot) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.201215] (-) TimerEvent: {}
+[1.207811] (robot) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.211664] (robot) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.211762] (robot) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.214848] (robot) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.214917] (robot) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.217883] (robot) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.218003] (robot) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.221213] (robot) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.221321] (robot) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.224554] (robot) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.224651] (robot) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.228158] (robot) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.296141] (robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.298874] (robot) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.299303] (robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.301291] (-) TimerEvent: {}
+[1.314135] (robot) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.321728] (robot) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.325624] (robot) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.337654] (robot) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.369503] (robot) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.376302] (robot) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.388792] (robot) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.401399] (-) TimerEvent: {}
+[1.418260] (robot) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.420561] (robot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.420853] (robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.433956] (robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.438486] (robot) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.450843] (robot) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.481796] (robot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.485100] (robot) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.485528] (robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.486105] (robot) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.486775] (robot) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.487553] (robot) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.496352] (robot) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[1.497271] (robot) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.499160] (robot) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[1.499373] (robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.499610] (robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.501457] (-) TimerEvent: {}
+[1.502533] (robot) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[1.502925] (robot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.571469] (robot) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[1.579119] (robot) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.591425] (robot) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.601529] (-) TimerEvent: {}
+[1.619068] (robot) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.625278] (robot) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.636612] (robot) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.666928] (robot) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.667485] (robot) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.667986] (robot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.668340] (robot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.671498] (robot) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[1.671654] (robot) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[1.682959] (robot) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[1.701652] (-) TimerEvent: {}
+[1.715682] (robot) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[1.738508] (robot) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.739994] (robot) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.740077] (robot) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.801750] (-) TimerEvent: {}
+[1.876079] (robot) StdoutLine: {'line': b'-- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)\n'}
+[1.877913] (robot) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.881696] (robot) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[1.901845] (-) TimerEvent: {}
+[1.910128] (robot) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.920993] (robot) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.953366] (robot) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.953503] (robot) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.971950] (robot) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.980865] (robot) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[2.001933] (-) TimerEvent: {}
+[2.018722] (robot) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[2.018972] (robot) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[2.102086] (-) TimerEvent: {}
+[2.202419] (-) TimerEvent: {}
+[2.302812] (-) TimerEvent: {}
+[2.403185] (-) TimerEvent: {}
+[2.503603] (-) TimerEvent: {}
+[2.604011] (-) TimerEvent: {}
+[2.704388] (-) TimerEvent: {}
+[2.793079] (robot) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.804507] (-) TimerEvent: {}
+[2.805762] (robot) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[2.838036] (robot) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.839562] (robot) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.889241] (robot) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.904598] (-) TimerEvent: {}
+[2.994294] (robot) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.998228] (robot) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.002642] (robot) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.004737] (-) TimerEvent: {}
+[3.105103] (-) TimerEvent: {}
+[3.117888] (robot) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[3.205220] (-) TimerEvent: {}
+[3.235686] (robot) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.305338] (-) TimerEvent: {}
+[3.339368] (robot) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[3.341931] (robot) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[3.342505] (robot) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[3.343113] (robot) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[3.343646] (robot) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[3.344208] (robot) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[3.344410] (robot) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[3.344643] (robot) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[3.345252] (robot) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[3.345894] (robot) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[3.346518] (robot) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[3.347070] (robot) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[3.347759] (robot) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[3.348412] (robot) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[3.349079] (robot) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[3.349730] (robot) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[3.350332] (robot) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[3.350931] (robot) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[3.351661] (robot) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[3.352311] (robot) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[3.352907] (robot) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[3.353141] (robot) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[3.354001] (robot) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[3.355587] (robot) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[3.356765] (robot) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[3.359598] (robot) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[3.367865] (robot) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:21 (find_package):\n'}
+[3.368055] (robot) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[3.368141] (robot) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[3.368215] (robot) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[3.368293] (robot) StderrLine: {'line': b'\n'}
+[3.368362] (robot) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[3.368429] (robot) StderrLine: {'line': b'\n'}
+[3.368496] (robot) StderrLine: {'line': b'    /usr\n'}
+[3.368564] (robot) StderrLine: {'line': b'\n'}
+[3.368647] (robot) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[3.368715] (robot) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.368782] (robot) StderrLine: {'line': b'\x1b[0m\n'}
+[3.375168] (robot) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[3.385721] (robot) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[3.405482] (-) TimerEvent: {}
+[3.431978] (robot) StdoutLine: {'line': b'-- Found cartographer_ros: 2.0.9002 (/opt/ros/humble/share/cartographer_ros/cmake)\n'}
+[3.505624] (-) TimerEvent: {}
+[3.524872] (robot) StdoutLine: {'line': b'-- Found rtabmap_ros: 0.21.10 (/opt/ros/humble/share/rtabmap_ros/cmake)\n'}
+[3.539781] (robot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.599553] (robot) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.600048] (robot) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.600170] (robot) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.600435] (robot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.600722] (robot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.601082] (robot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.601960] (robot) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.602123] (robot) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.602282] (robot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.603284] (robot) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.605693] (-) TimerEvent: {}
+[3.670753] (robot) StdoutLine: {'line': b'-- Generating done\n'}
+[3.686281] (robot) StdoutLine: {'line': b'-- Build files have been written to: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot\n'}
+[3.706084] (robot) CommandEnded: {'returncode': 0}
+[3.707743] (-) TimerEvent: {}
+[3.707900] (robot) JobProgress: {'identifier': 'robot', 'progress': 'build'}
+[3.707940] (robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot', '--', '-j22', '-l22'], 'cwd': '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot', 'env': OrderedDict([('LANGUAGE', 'en_IN:en'), ('USER', 'vighneshreddy'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vighneshreddy'), ('OLDPWD', '/home/vighneshreddy'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1539'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vighneshreddy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vighneshreddy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vivobook-s16:@/tmp/.ICE-unix/1511,unix/vivobook-s16:/tmp/.ICE-unix/1511'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7ba4f075_c3ea_48f7_a1fa_97616c16ab47'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.748287] (robot) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_node.dir/src/pointcloud_preprocessor_node.cpp.o\x1b[0m\n'}
+[3.749098] (robot) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/navigation_node.dir/src/navigation_node.cpp.o\x1b[0m\n'}
+[3.749523] (robot) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/pcloa.dir/src/pcloa.cpp.o\x1b[0m\n'}
+[3.749819] (robot) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/compass_node.dir/src/compass.cpp.o\x1b[0m\n'}
+[3.807850] (-) TimerEvent: {}
+[3.908162] (-) TimerEvent: {}
+[4.008436] (-) TimerEvent: {}
+[4.109007] (-) TimerEvent: {}
+[4.209361] (-) TimerEvent: {}
+[4.309708] (-) TimerEvent: {}
+[4.410051] (-) TimerEvent: {}
+[4.510453] (-) TimerEvent: {}
+[4.610808] (-) TimerEvent: {}
+[4.711151] (-) TimerEvent: {}
+[4.811566] (-) TimerEvent: {}
+[4.911994] (-) TimerEvent: {}
+[5.012377] (-) TimerEvent: {}
+[5.112771] (-) TimerEvent: {}
+[5.213153] (-) TimerEvent: {}
+[5.313548] (-) TimerEvent: {}
+[5.413925] (-) TimerEvent: {}
+[5.514394] (-) TimerEvent: {}
+[5.614984] (-) TimerEvent: {}
+[5.715431] (-) TimerEvent: {}
+[5.815759] (-) TimerEvent: {}
+[5.916154] (-) TimerEvent: {}
+[6.016554] (-) TimerEvent: {}
+[6.116983] (-) TimerEvent: {}
+[6.217363] (-) TimerEvent: {}
+[6.317970] (-) TimerEvent: {}
+[6.418310] (-) TimerEvent: {}
+[6.518688] (-) TimerEvent: {}
+[6.619078] (-) TimerEvent: {}
+[6.719514] (-) TimerEvent: {}
+[6.819889] (-) TimerEvent: {}
+[6.920297] (-) TimerEvent: {}
+[7.020739] (-) TimerEvent: {}
+[7.121084] (-) TimerEvent: {}
+[7.221415] (-) TimerEvent: {}
+[7.321834] (-) TimerEvent: {}
+[7.422191] (-) TimerEvent: {}
+[7.522497] (-) TimerEvent: {}
+[7.622807] (-) TimerEvent: {}
+[7.723093] (-) TimerEvent: {}
+[7.823426] (-) TimerEvent: {}
+[7.923764] (-) TimerEvent: {}
+[8.024086] (-) TimerEvent: {}
+[8.124425] (-) TimerEvent: {}
+[8.224722] (-) TimerEvent: {}
+[8.325053] (-) TimerEvent: {}
+[8.425455] (-) TimerEvent: {}
+[8.525883] (-) TimerEvent: {}
+[8.626232] (-) TimerEvent: {}
+[8.726581] (-) TimerEvent: {}
+[8.827054] (-) TimerEvent: {}
+[8.927526] (-) TimerEvent: {}
+[9.027957] (-) TimerEvent: {}
+[9.128469] (-) TimerEvent: {}
+[9.228897] (-) TimerEvent: {}
+[9.329269] (-) TimerEvent: {}
+[9.429664] (-) TimerEvent: {}
+[9.530033] (-) TimerEvent: {}
+[9.630405] (-) TimerEvent: {}
+[9.730770] (-) TimerEvent: {}
+[9.831218] (-) TimerEvent: {}
+[9.931662] (-) TimerEvent: {}
+[10.032063] (-) TimerEvent: {}
+[10.132423] (-) TimerEvent: {}
+[10.232775] (-) TimerEvent: {}
+[10.333148] (-) TimerEvent: {}
+[10.433681] (-) TimerEvent: {}
+[10.534151] (-) TimerEvent: {}
+[10.634538] (-) TimerEvent: {}
+[10.734912] (-) TimerEvent: {}
+[10.835215] (-) TimerEvent: {}
+[10.935598] (-) TimerEvent: {}
+[11.035989] (-) TimerEvent: {}
+[11.136318] (-) TimerEvent: {}
+[11.236646] (-) TimerEvent: {}
+[11.336976] (-) TimerEvent: {}
+[11.437370] (-) TimerEvent: {}
+[11.537732] (-) TimerEvent: {}
+[11.638032] (-) TimerEvent: {}
+[11.738350] (-) TimerEvent: {}
+[11.838658] (-) TimerEvent: {}
+[11.938975] (-) TimerEvent: {}
+[12.039290] (-) TimerEvent: {}
+[12.139583] (-) TimerEvent: {}
+[12.239935] (-) TimerEvent: {}
+[12.340244] (-) TimerEvent: {}
+[12.440751] (-) TimerEvent: {}
+[12.541060] (-) TimerEvent: {}
+[12.641371] (-) TimerEvent: {}
+[12.741780] (-) TimerEvent: {}
+[12.842129] (-) TimerEvent: {}
+[12.942465] (-) TimerEvent: {}
+[13.043171] (-) TimerEvent: {}
+[13.143584] (-) TimerEvent: {}
+[13.244012] (-) TimerEvent: {}
+[13.344481] (-) TimerEvent: {}
+[13.444867] (-) TimerEvent: {}
+[13.545362] (-) TimerEvent: {}
+[13.645710] (-) TimerEvent: {}
+[13.746024] (-) TimerEvent: {}
+[13.846461] (-) TimerEvent: {}
+[13.946824] (-) TimerEvent: {}
+[14.047180] (-) TimerEvent: {}
+[14.147544] (-) TimerEvent: {}
+[14.247837] (-) TimerEvent: {}
+[14.313780] (robot) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable navigation_node\x1b[0m\n'}
+[14.347952] (-) TimerEvent: {}
+[14.448234] (-) TimerEvent: {}
+[14.548603] (-) TimerEvent: {}
+[14.649145] (-) TimerEvent: {}
+[14.749441] (-) TimerEvent: {}
+[14.849721] (-) TimerEvent: {}
+[14.864024] (robot) StdoutLine: {'line': b'[ 62%] Built target navigation_node\n'}
+[14.949830] (-) TimerEvent: {}
+[15.050156] (-) TimerEvent: {}
+[15.124066] (robot) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable compass_node\x1b[0m\n'}
+[15.150279] (-) TimerEvent: {}
+[15.209533] (robot) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable pointcloud_preprocessor_node\x1b[0m\n'}
+[15.250403] (-) TimerEvent: {}
+[15.350793] (-) TimerEvent: {}
+[15.451146] (-) TimerEvent: {}
+[15.551612] (-) TimerEvent: {}
+[15.652061] (-) TimerEvent: {}
+[15.752443] (-) TimerEvent: {}
+[15.852822] (-) TimerEvent: {}
+[15.951877] (robot) StdoutLine: {'line': b'[ 87%] Built target compass_node\n'}
+[15.952873] (-) TimerEvent: {}
+[16.053159] (-) TimerEvent: {}
+[16.153471] (-) TimerEvent: {}
+[16.253808] (-) TimerEvent: {}
+[16.354159] (-) TimerEvent: {}
+[16.454439] (-) TimerEvent: {}
+[16.526663] (robot) StdoutLine: {'line': b'[ 87%] Built target pointcloud_preprocessor_node\n'}
+[16.554585] (-) TimerEvent: {}
+[16.654957] (-) TimerEvent: {}
+[16.755344] (-) TimerEvent: {}
+[16.855745] (-) TimerEvent: {}
+[16.956134] (-) TimerEvent: {}
+[17.056546] (-) TimerEvent: {}
+[17.156923] (-) TimerEvent: {}
+[17.257358] (-) TimerEvent: {}
+[17.357769] (-) TimerEvent: {}
+[17.458193] (-) TimerEvent: {}
+[17.558501] (-) TimerEvent: {}
+[17.658923] (-) TimerEvent: {}
+[17.759292] (-) TimerEvent: {}
+[17.859646] (-) TimerEvent: {}
+[17.960015] (-) TimerEvent: {}
+[18.060352] (-) TimerEvent: {}
+[18.160664] (-) TimerEvent: {}
+[18.261035] (-) TimerEvent: {}
+[18.361445] (-) TimerEvent: {}
+[18.461787] (-) TimerEvent: {}
+[18.562092] (-) TimerEvent: {}
+[18.662437] (-) TimerEvent: {}
+[18.762792] (-) TimerEvent: {}
+[18.863200] (-) TimerEvent: {}
+[18.963530] (-) TimerEvent: {}
+[19.063906] (-) TimerEvent: {}
+[19.164276] (-) TimerEvent: {}
+[19.264580] (-) TimerEvent: {}
+[19.364890] (-) TimerEvent: {}
+[19.465164] (-) TimerEvent: {}
+[19.565468] (-) TimerEvent: {}
+[19.665842] (-) TimerEvent: {}
+[19.766136] (-) TimerEvent: {}
+[19.866476] (-) TimerEvent: {}
+[19.950535] (robot) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pcloa\x1b[0m\n'}
+[19.966556] (-) TimerEvent: {}
+[20.066848] (-) TimerEvent: {}
+[20.167190] (-) TimerEvent: {}
+[20.267542] (-) TimerEvent: {}
+[20.367895] (-) TimerEvent: {}
+[20.468261] (-) TimerEvent: {}
+[20.568682] (-) TimerEvent: {}
+[20.669052] (-) TimerEvent: {}
+[20.769410] (-) TimerEvent: {}
+[20.869777] (-) TimerEvent: {}
+[20.970110] (-) TimerEvent: {}
+[21.070466] (-) TimerEvent: {}
+[21.170855] (-) TimerEvent: {}
+[21.271263] (-) TimerEvent: {}
+[21.371601] (-) TimerEvent: {}
+[21.471950] (-) TimerEvent: {}
+[21.485556] (robot) StdoutLine: {'line': b'[100%] Built target pcloa\n'}
+[21.496831] (robot) CommandEnded: {'returncode': 0}
+[21.497260] (robot) JobProgress: {'identifier': 'robot', 'progress': 'install'}
+[21.504301] (robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot'], 'cwd': '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot', 'env': OrderedDict([('LANGUAGE', 'en_IN:en'), ('USER', 'vighneshreddy'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vighneshreddy'), ('OLDPWD', '/home/vighneshreddy'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1539'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vighneshreddy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vighneshreddy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vivobook-s16:@/tmp/.ICE-unix/1511,unix/vivobook-s16:/tmp/.ICE-unix/1511'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7ba4f075_c3ea_48f7_a1fa_97616c16ab47'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[21.509973] (robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.510102] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/lib/robot/imu_receiver.py\n'}
+[21.510544] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/lib/robot/navigation_node\n'}
+[21.515075] (robot) StdoutLine: {'line': b'-- Set runtime path of "/home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/lib/robot/navigation_node" to ""\n'}
+[21.515159] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/lib/robot/pointcloud_preprocessor_node\n'}
+[21.517335] (robot) StdoutLine: {'line': b'-- Set runtime path of "/home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/lib/robot/pointcloud_preprocessor_node" to ""\n'}
+[21.517405] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/lib/robot/pcloa\n'}
+[21.520669] (robot) StdoutLine: {'line': b'-- Set runtime path of "/home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/lib/robot/pcloa" to ""\n'}
+[21.520753] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/lib/robot/compass_node\n'}
+[21.523294] (robot) StdoutLine: {'line': b'-- Set runtime path of "/home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/lib/robot/compass_node" to ""\n'}
+[21.523381] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//launch\n'}
+[21.523429] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//launch/display.launch.py\n'}
+[21.523474] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//launch/octomap_launch.py\n'}
+[21.523512] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//launch/gazebo.launch.py\n'}
+[21.523541] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//launch/nav2_launch.py\n'}
+[21.523588] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//launch/rtabmap.launch.py\n'}
+[21.523636] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//launch/robot.launch.py\n'}
+[21.523667] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//launch/cartographer.launch.py\n'}
+[21.523709] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//urdf\n'}
+[21.523734] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//urdf/material.xacro\n'}
+[21.523852] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//urdf/stereo.xacro\n'}
+[21.523892] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//urdf/robot.urdf.xacro\n'}
+[21.523929] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//urdf/gps.xacro\n'}
+[21.523966] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//urdf/lidar.xacro\n'}
+[21.524001] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//urdf/inertial.xacro\n'}
+[21.524037] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//urdf/imu.xacro\n'}
+[21.524077] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//urdf/cam.xacro\n'}
+[21.524116] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//rviz\n'}
+[21.524152] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//rviz/config.rviz\n'}
+[21.524313] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//rviz/nav2_slam_config.rviz\n'}
+[21.524366] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//config\n'}
+[21.524399] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//config/cartographer_2d.lua\n'}
+[21.524518] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//config/rtabmap_config.yaml\n'}
+[21.524770] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//config/octomap.yaml\n'}
+[21.524835] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//config/rtabmap_launch.yaml\n'}
+[21.524997] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//config/slam_toolbox_params.yaml\n'}
+[21.525219] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//config/cartographer_ros_config.yaml\n'}
+[21.525455] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//config/nav2_params.yaml\n'}
+[21.525701] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/ament_index/resource_index/package_run_dependencies/robot\n'}
+[21.525794] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/ament_index/resource_index/parent_prefix_path/robot\n'}
+[21.525880] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot/environment/ament_prefix_path.sh\n'}
+[21.525931] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot/environment/ament_prefix_path.dsv\n'}
+[21.525982] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot/environment/path.sh\n'}
+[21.526038] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot/environment/path.dsv\n'}
+[21.526087] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot/local_setup.bash\n'}
+[21.526140] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot/local_setup.sh\n'}
+[21.526196] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot/local_setup.zsh\n'}
+[21.526248] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot/local_setup.dsv\n'}
+[21.526304] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot/package.dsv\n'}
+[21.526370] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/ament_index/resource_index/packages/robot\n'}
+[21.526442] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot/cmake/robotConfig.cmake\n'}
+[21.526481] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot/cmake/robotConfig-version.cmake\n'}
+[21.526540] (robot) StdoutLine: {'line': b'-- Installing: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot/package.xml\n'}
+[21.528036] (robot) CommandEnded: {'returncode': 0}
+[21.544196] (robot) JobEnded: {'identifier': 'robot', 'rc': 0}
+[21.544758] (-) EventReactorShutdown: {}

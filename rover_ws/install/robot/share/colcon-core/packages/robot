@@ -1,1 +1,1 @@
-gazebo_ros:geometry_msgs:joint_state_publisher:rclcpp:robot_state_publisher:sensor_msgs:tf2:tf2_geometry_msgs:xacro
+cartographer_ros:config:gazebo_ros:launch:rclcpp:robot_state_publisher:rtabmap_ros:rviz:tf2_ros:urdf

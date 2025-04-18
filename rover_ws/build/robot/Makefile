@@ -210,6 +210,69 @@ navigation_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigation_node.dir/build.make CMakeFiles/navigation_node.dir/build
 .PHONY : navigation_node/fast
 
+#=============================================================================
+# Target rules for targets named pointcloud_preprocessor_node
+
+# Build rule for target.
+pointcloud_preprocessor_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pointcloud_preprocessor_node
+.PHONY : pointcloud_preprocessor_node
+
+# fast build rule for target.
+pointcloud_preprocessor_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointcloud_preprocessor_node.dir/build.make CMakeFiles/pointcloud_preprocessor_node.dir/build
+.PHONY : pointcloud_preprocessor_node/fast
+
+#=============================================================================
+# Target rules for targets named pcloa
+
+# Build rule for target.
+pcloa: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pcloa
+.PHONY : pcloa
+
+# fast build rule for target.
+pcloa/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pcloa.dir/build.make CMakeFiles/pcloa.dir/build
+.PHONY : pcloa/fast
+
+#=============================================================================
+# Target rules for targets named compass_node
+
+# Build rule for target.
+compass_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 compass_node
+.PHONY : compass_node
+
+# fast build rule for target.
+compass_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compass_node.dir/build.make CMakeFiles/compass_node.dir/build
+.PHONY : compass_node/fast
+
+src/compass.o: src/compass.cpp.o
+.PHONY : src/compass.o
+
+# target to build an object file
+src/compass.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compass_node.dir/build.make CMakeFiles/compass_node.dir/src/compass.cpp.o
+.PHONY : src/compass.cpp.o
+
+src/compass.i: src/compass.cpp.i
+.PHONY : src/compass.i
+
+# target to preprocess a source file
+src/compass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compass_node.dir/build.make CMakeFiles/compass_node.dir/src/compass.cpp.i
+.PHONY : src/compass.cpp.i
+
+src/compass.s: src/compass.cpp.s
+.PHONY : src/compass.s
+
+# target to generate assembly for a file
+src/compass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compass_node.dir/build.make CMakeFiles/compass_node.dir/src/compass.cpp.s
+.PHONY : src/compass.cpp.s
+
 src/navigation_node.o: src/navigation_node.cpp.o
 .PHONY : src/navigation_node.o
 
@@ -234,6 +297,54 @@ src/navigation_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigation_node.dir/build.make CMakeFiles/navigation_node.dir/src/navigation_node.cpp.s
 .PHONY : src/navigation_node.cpp.s
 
+src/pcloa.o: src/pcloa.cpp.o
+.PHONY : src/pcloa.o
+
+# target to build an object file
+src/pcloa.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pcloa.dir/build.make CMakeFiles/pcloa.dir/src/pcloa.cpp.o
+.PHONY : src/pcloa.cpp.o
+
+src/pcloa.i: src/pcloa.cpp.i
+.PHONY : src/pcloa.i
+
+# target to preprocess a source file
+src/pcloa.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pcloa.dir/build.make CMakeFiles/pcloa.dir/src/pcloa.cpp.i
+.PHONY : src/pcloa.cpp.i
+
+src/pcloa.s: src/pcloa.cpp.s
+.PHONY : src/pcloa.s
+
+# target to generate assembly for a file
+src/pcloa.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pcloa.dir/build.make CMakeFiles/pcloa.dir/src/pcloa.cpp.s
+.PHONY : src/pcloa.cpp.s
+
+src/pointcloud_preprocessor_node.o: src/pointcloud_preprocessor_node.cpp.o
+.PHONY : src/pointcloud_preprocessor_node.o
+
+# target to build an object file
+src/pointcloud_preprocessor_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointcloud_preprocessor_node.dir/build.make CMakeFiles/pointcloud_preprocessor_node.dir/src/pointcloud_preprocessor_node.cpp.o
+.PHONY : src/pointcloud_preprocessor_node.cpp.o
+
+src/pointcloud_preprocessor_node.i: src/pointcloud_preprocessor_node.cpp.i
+.PHONY : src/pointcloud_preprocessor_node.i
+
+# target to preprocess a source file
+src/pointcloud_preprocessor_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointcloud_preprocessor_node.dir/build.make CMakeFiles/pointcloud_preprocessor_node.dir/src/pointcloud_preprocessor_node.cpp.i
+.PHONY : src/pointcloud_preprocessor_node.cpp.i
+
+src/pointcloud_preprocessor_node.s: src/pointcloud_preprocessor_node.cpp.s
+.PHONY : src/pointcloud_preprocessor_node.s
+
+# target to generate assembly for a file
+src/pointcloud_preprocessor_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointcloud_preprocessor_node.dir/build.make CMakeFiles/pointcloud_preprocessor_node.dir/src/pointcloud_preprocessor_node.cpp.s
+.PHONY : src/pointcloud_preprocessor_node.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -249,10 +360,22 @@ help:
 	@echo "... test"
 	@echo "... robot_uninstall"
 	@echo "... uninstall"
+	@echo "... compass_node"
 	@echo "... navigation_node"
+	@echo "... pcloa"
+	@echo "... pointcloud_preprocessor_node"
+	@echo "... src/compass.o"
+	@echo "... src/compass.i"
+	@echo "... src/compass.s"
 	@echo "... src/navigation_node.o"
 	@echo "... src/navigation_node.i"
 	@echo "... src/navigation_node.s"
+	@echo "... src/pcloa.o"
+	@echo "... src/pcloa.i"
+	@echo "... src/pcloa.s"
+	@echo "... src/pointcloud_preprocessor_node.o"
+	@echo "... src/pointcloud_preprocessor_node.i"
+	@echo "... src/pointcloud_preprocessor_node.s"
 .PHONY : help
 
 

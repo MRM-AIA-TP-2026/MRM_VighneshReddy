@@ -6,7 +6,7 @@ import os
 def generate_launch_description():
     pkg_share = launch_ros.substitutions.FindPackageShare(package='robot').find('robot')
     default_model_path = os.path.join(pkg_share, 'urdf/robot.urdf.xacro')
-    default_rviz_config_path = os.path.join(pkg_share, 'rviz/config.rviz')
+    default_rviz_config_path = os.path.join(pkg_share, 'rviz/nav2_slam_config.rviz')
 
     robot_state_publisher_node = launch_ros.actions.Node(
         package='robot_state_publisher',

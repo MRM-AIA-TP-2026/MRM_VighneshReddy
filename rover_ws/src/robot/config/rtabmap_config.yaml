@@ -1,0 +1,22 @@
+# rtabmap_config.yaml
+
+frame_id: base_link
+map_frame_id: map
+odom_frame_id: odom
+
+# Sensor configuration
+subscribe_depth: true
+subscribe_rgb: true
+subscribe_scan: true
+subscribe_scan_cloud: false
+subscribe_imu: true
+
+# RGB-D settings
+rgbd_rate: 10.0
+depth_scan_topic: /scan  # Modify with your LiDAR topic
+depth_topic: /camera/depth/image_raw  # Modify with your depth camera topic
+rgb_topic: /camera/rgb/image_raw  # Modify with your RGB camera topic
+
+# Odometry
+odom_topic: /odom  # Modify with your odometry topic
+

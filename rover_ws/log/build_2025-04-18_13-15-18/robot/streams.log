@@ -1,0 +1,167 @@
+[0.008s] Invoking command in '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vighneshreddy/MRM_VighneshReddy/rover_ws/src/robot -DCMAKE_INSTALL_PREFIX=/home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot
+[0.020s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.101s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.105s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.127s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.129s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.133s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.140s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.148s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.170s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.171s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.249s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.305s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.324s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.325s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.328s] -- Searching for dependencies of ignition-math6
+[0.329s] -- Looking for OGRE...
+[0.333s] -- Found Ogre Ghadamon (1.9.0)
+[0.333s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.341s] -- Looking for OGRE_Paging...
+[0.341s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.342s] -- Looking for OGRE_Terrain...
+[0.342s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.342s] -- Looking for OGRE_Property...
+[0.342s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.342s] -- Looking for OGRE_RTShaderSystem...
+[0.342s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.342s] -- Looking for OGRE_Volume...
+[0.342s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.342s] -- Looking for OGRE_Overlay...
+[0.342s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.407s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.407s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.408s] -- Searching for dependencies of ignition-transport8
+[0.422s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.428s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.434s] -- Checking for module 'libzmq >= 4'
+[0.447s] --   Found libzmq , version 4.3.4
+[0.491s] -- Checking for module 'uuid'
+[0.503s] --   Found uuid, version 2.37.2
+[0.534s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.534s] -- Searching for dependencies of ignition-msgs5
+[0.547s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.552s] -- Checking for module 'tinyxml2'
+[0.563s] --   Found tinyxml2, version 9.0.0
+[0.593s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.593s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.593s] -- Searching for dependencies of ignition-common3
+[0.594s] -- Looking for dlfcn.h - found
+[0.594s] -- Looking for libdl - found
+[0.604s] -- Searching for <ignition-common3> component [graphics]
+[0.604s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.605s] -- Searching for dependencies of ignition-common3-graphics
+[0.605s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.606s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.606s] -- Searching for dependencies of ignition-fuel_tools4
+[0.638s] -- Checking for module 'jsoncpp'
+[0.651s] --   Found jsoncpp, version 1.9.5
+[0.684s] -- Checking for module 'libzip'
+[0.695s] --   Found libzip, version 1.7.3
+[0.723s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.724s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.724s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.725s] -- Gazebo version: 11.10
+[0.726s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.738s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.738s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.826s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[0.827s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.830s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.855s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.875s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.098s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.103s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.222s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.228s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.236s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.349s] -- Found Qhull version 8.0.2
+[1.467s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.586s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[1.594s] [33mCMake Warning (dev) at CMakeLists.txt:21 (find_package):
+[1.594s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[1.594s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[1.594s]   command to set the policy and suppress this warning.
+[1.594s] 
+[1.594s]   CMake variable PCL_ROOT is set to:
+[1.595s] 
+[1.595s]     /usr
+[1.595s] 
+[1.595s]   For compatibility, CMake is ignoring the variable.
+[1.595s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.595s] [0m
+[1.600s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.648s] -- Found cartographer_ros: 2.0.9002 (/opt/ros/humble/share/cartographer_ros/cmake)
+[1.709s] -- Found rtabmap_ros: 0.21.10 (/opt/ros/humble/share/rtabmap_ros/cmake)
+[1.724s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.772s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.772s] -- Configured cppcheck include dirs: 
+[1.772s] -- Configured cppcheck exclude dirs and/or files: 
+[1.772s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.773s] -- Added test 'lint_cmake' to check CMake code style
+[1.773s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.774s] -- Added test 'uncrustify' to check C / C++ code style
+[1.774s] -- Configured uncrustify additional arguments: 
+[1.774s] -- Added test 'xmllint' to check XML markup files
+[1.775s] -- Configuring done
+[1.832s] -- Generating done
+[1.847s] -- Build files have been written to: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot
+[1.866s] Invoked command in '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vighneshreddy/MRM_VighneshReddy/rover_ws/src/robot -DCMAKE_INSTALL_PREFIX=/home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot
+[1.869s] Invoking command in '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot -- -j22 -l22
+[1.911s] [35m[1mConsolidate compiler generated dependencies of target compass_node[0m
+[1.911s] [35m[1mConsolidate compiler generated dependencies of target pointcloud_preprocessor_node[0m
+[1.911s] [35m[1mConsolidate compiler generated dependencies of target pcloa[0m
+[1.913s] [35m[1mConsolidate compiler generated dependencies of target navigation_node[0m
+[1.925s] [ 25%] Built target compass_node
+[1.929s] [ 50%] Built target navigation_node
+[1.929s] [ 75%] Built target pcloa
+[1.931s] [100%] Built target pointcloud_preprocessor_node
+[1.945s] Invoked command in '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot -- -j22 -l22
+[1.955s] Invoking command in '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot
+[1.959s] -- Install configuration: ""
+[1.959s] -- Execute custom install script
+[1.959s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/lib/robot/imu_receiver.py
+[1.959s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/lib/robot/navigation_node
+[1.959s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/lib/robot/pointcloud_preprocessor_node
+[1.960s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/lib/robot/pcloa
+[1.960s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/lib/robot/compass_node
+[1.960s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//launch/cartographer.launch.py
+[1.960s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//launch/display.launch.py
+[1.960s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//launch/gazebo.launch.py
+[1.960s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//launch/nav2_launch.py
+[1.960s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//launch/octomap_launch.py
+[1.960s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//launch/robot.launch.py
+[1.960s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//launch/rtabmap.launch.py
+[1.961s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//urdf/cam.xacro
+[1.961s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//urdf/gps.xacro
+[1.961s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//urdf/imu.xacro
+[1.961s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//urdf/inertial.xacro
+[1.961s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//urdf/lidar.xacro
+[1.961s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//urdf/material.xacro
+[1.961s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//urdf/robot.urdf.xacro
+[1.961s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//urdf/stereo.xacro
+[1.961s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//rviz/config.rviz
+[1.961s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//rviz/nav2_slam_config.rviz
+[1.961s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//config/cartographer_2d.lua
+[1.961s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//config/cartographer_ros_config.yaml
+[1.961s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//config/nav2_params.yaml
+[1.961s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//config/octomap.yaml
+[1.961s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//config/rtabmap_config.yaml
+[1.962s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//config/rtabmap_launch.yaml
+[1.962s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot//config/slam_toolbox_params.yaml
+[1.962s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/ament_index/resource_index/package_run_dependencies/robot
+[1.962s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/ament_index/resource_index/parent_prefix_path/robot
+[1.962s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot/environment/ament_prefix_path.sh
+[1.962s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot/environment/ament_prefix_path.dsv
+[1.962s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot/environment/path.sh
+[1.962s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot/environment/path.dsv
+[1.962s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot/local_setup.bash
+[1.962s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot/local_setup.sh
+[1.962s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot/local_setup.zsh
+[1.962s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot/local_setup.dsv
+[1.962s] -- Symlinking: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot/package.dsv
+[1.970s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/ament_index/resource_index/packages/robot
+[1.970s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot/cmake/robotConfig.cmake
+[1.970s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot/cmake/robotConfig-version.cmake
+[1.970s] -- Up-to-date symlink: /home/vighneshreddy/MRM_VighneshReddy/rover_ws/install/robot/share/robot/package.xml
+[1.973s] Invoked command in '/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot
