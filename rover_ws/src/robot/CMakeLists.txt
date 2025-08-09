@@ -63,7 +63,10 @@ target_link_libraries(compass_node ${OpenCV_LIBRARIES})
 # Install Python scripts
 install(
   PROGRAMS
-    src/imu_receiver.py  # Path to your Python script
+    src/imu_receiver.py 
+    src/gui.py
+    src/imu_calibrate.py
+    src/relay_node.py # Path to your Python script
   DESTINATION lib/${PROJECT_NAME}  # Install location for executables
 )
 
@@ -81,6 +84,9 @@ install(DIRECTORY launch DESTINATION share/${PROJECT_NAME}/)
 install(DIRECTORY urdf DESTINATION share/${PROJECT_NAME}/)
 install(DIRECTORY rviz DESTINATION share/${PROJECT_NAME}/)
 install(DIRECTORY config DESTINATION share/${PROJECT_NAME}/)
+install(DIRECTORY worlds/
+  DESTINATION share/${PROJECT_NAME}/worlds)
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

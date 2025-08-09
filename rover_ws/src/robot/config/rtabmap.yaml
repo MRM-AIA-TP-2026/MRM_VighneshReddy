@@ -1,0 +1,21 @@
+rtabmap:
+  ros__parameters:
+    frame_id: "base_link"
+    subscribe_depth: true
+    subscribe_scan: true
+    subscribe_scan_cloud: false
+    subscribe_point_cloud: true
+    approx_sync: true
+    RGBD/approx_sync: true
+    RGBD/linear_update: 0.1
+    RGBD/angular_update: 0.1
+    Reg/Strategy: 0     # Visual registration
+    Mem/IncrementalMemory: true
+
+    RGBD/CameraDepthTopic: "/d430/depth/image_rect_raw"
+    RGBD/CameraInfoTopic: "/d430/depth/camera_info"
+    RGBD/CameraScanTopic: "/scan"
+    RGBD/CameraCloudTopic: "/d430/depth/points"
+    RGBD/CameraColorTopic: "/d430/color/image_raw"
+    RGBD/CameraInfoColorTopic: "/d430/camera_info"
+

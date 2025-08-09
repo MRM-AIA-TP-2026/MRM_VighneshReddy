@@ -1,1 +1,1 @@
-gazebo_ros;robot_state_publisher;tf2_ros;rclcpp;launch;urdf;rviz;config;rtabmap_ros;cartographer_ros;ament_lint_auto;ament_lint_common
+gazebo_ros;robot_state_publisher;tf2_ros;rclcpp;launch;urdf;rviz;config;rtabmap_ros;worlds;cartographer_ros;ament_lint_auto;ament_lint_common

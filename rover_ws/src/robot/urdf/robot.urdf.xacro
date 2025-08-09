@@ -37,23 +37,6 @@
     <material name="orange">
     <color rgba="1 0.65 0 1" />
     </material>
-
-    <link name="base_footprint">
-        <inertial>
-            <mass value="0.0"/>
-            <origin xyz="0 0 0" rpy="0 0 0"/>
-            <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
-
-        </inertial>
-    </link>
-
-    <joint name="base_joint" type="fixed">
-        <parent link="base_footprint"/>
-        <child link="base_link"/>
-        <origin xyz = "0 0 0.05" rpy = "0 0 0" />
-
-    </joint>
-    
     
     <link name = "base_link">
         <visual>
@@ -229,38 +212,39 @@
 
      <gazebo>
         <plugin name='diff_drive' filename='libgazebo_ros_diff_drive.so'>
-            <num_wheel_pairs>2</num_wheel_pairs>
+    <num_wheel_pairs>2</num_wheel_pairs>
 
-            <!-- wheels -->
-            <left_joint>base_left_wheel_front_joint</left_joint>
-            
-            <right_joint>base_right_wheel_front_joint</right_joint>
-           
-           <left_joint>base_left_wheel_back_joint</left_joint>
-            
-            <right_joint>base_right_wheel_back_joint</right_joint>
+    <!-- wheels -->
+    <left_joint>base_left_wheel_front_joint</left_joint>
+    <right_joint>base_right_wheel_front_joint</right_joint>
+    <left_joint>base_left_wheel_back_joint</left_joint>
+    <right_joint>base_right_wheel_back_joint</right_joint>
 
-            <!-- kinematics -->
-            <wheel_separation>0.45</wheel_separation>
-            <wheel_diameter>0.2</wheel_diameter>
+    <!-- kinematics -->
+    <wheel_separation>0.45</wheel_separation>
+    <wheel_diameter>0.2</wheel_diameter>
 
-            <!-- limits -->
-            <max_wheel_torque>10</max_wheel_torque>
-            <max_wheel_acceleration>1.0</max_wheel_acceleration>
+    <!-- limits -->
+    <max_wheel_torque>10</max_wheel_torque>
+    <max_wheel_acceleration>1.0</max_wheel_acceleration>
 
-            <!-- output -->
-            <publish_odom>true</publish_odom>
-            <publish_odom_tf>true</publish_odom_tf>
-            <publish_wheel_tf>false</publish_wheel_tf>
+    <!-- output -->
+    <publish_odom>true</publish_odom>
+    <publish_odom_tf>true</publish_odom_tf>
+    <publish_wheel_tf>true</publish_wheel_tf>
 
-            <odometry_frame>odom</odometry_frame>
-            <robot_base_frame>base_footprint</robot_base_frame>
-        </plugin>
+    <odometry_frame>odom</odometry_frame>
+    <robot_base_frame>base_link</robot_base_frame>
+
+    <!-- ✅ Increase odom publishing frequency -->
+    <update_rate>60.0</update_rate>
+</plugin>
+
     </gazebo>
 
     <gazebo>
         <plugin name="gazebo_ros_joint_state_publisher" filename="libgazebo_ros_joint_state_publisher.so">
-            <update_rate>10</update_rate>
+            <update_rate>60</update_rate>
             <joint_name>base_left_wheel_front_joint</joint_name>
             <joint_name>base_left_wheel_back_joint</joint_name>
             <joint_name>base_right_wheel_front_joint</joint_name>

@@ -21,18 +21,10 @@ def generate_launch_description():
             os.path.join(pkg_share, 'launch', 'display.launch.py')
         )
     )
-    
-    # Static transform from map to base_link
-    static_transform_publisher = Node(
-        package='tf2_ros',
-        executable='static_transform_publisher',
-        name='static_transform_publisher_map_to_base_link',
-        arguments=['0', '0', '0', '0', '0', '0', 'map', 'base_link']
-    )
-      
+          
     return LaunchDescription([
         gazebo_launch,
         rviz_launch,
-        static_transform_publisher,
     ])
+
 

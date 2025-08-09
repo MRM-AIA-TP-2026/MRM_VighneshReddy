@@ -5,7 +5,7 @@ set(robot_BUILD_DEPENDS "gazebo_ros" "robot_state_publisher" "joint_state_publis
 set(robot_BUILDTOOL_DEPENDS "ament_cmake")
 set(robot_BUILD_EXPORT_DEPENDS "gazebo_ros" "robot_state_publisher" "tf2_ros" "rclcpp")
 set(robot_BUILDTOOL_EXPORT_DEPENDS )
-set(robot_EXEC_DEPENDS "launch" "urdf" "rviz" "config" "rtabmap_ros" "cartographer_ros")
+set(robot_EXEC_DEPENDS "launch" "urdf" "rviz" "config" "rtabmap_ros" "worlds" "cartographer_ros")
 set(robot_TEST_DEPENDS "ament_lint_auto" "ament_lint_common")
 set(robot_GROUP_DEPENDS )
 set(robot_MEMBER_OF_GROUPS )

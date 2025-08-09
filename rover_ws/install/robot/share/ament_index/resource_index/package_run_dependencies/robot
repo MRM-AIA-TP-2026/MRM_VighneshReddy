@@ -1,1 +1,1 @@
-/home/vighneshreddy/MRM_VighneshReddy/rover_ws/build/robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot
+gazebo_ros;robot_state_publisher;tf2_ros;rclcpp;launch;urdf;rviz;config;rtabmap_ros;worlds;cartographer_ros;ament_lint_auto;ament_lint_common

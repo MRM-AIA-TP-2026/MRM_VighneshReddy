@@ -1,8 +1,0 @@
-octomap_server:
-  ros__parameters:
-    frame_id: "laser_frame"
-    resolution: 0.1
-    sensor_model:
-      sensor_type: "laser"
-      topic: "/scan"
-

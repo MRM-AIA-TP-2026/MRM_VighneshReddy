@@ -44,6 +44,7 @@
   <exec_depend>rviz</exec_depend>
   <exec_depend>config</exec_depend>
   <exec_depend>rtabmap_ros</exec_depend>
+  <exec_depend>worlds</exec_depend>
   <exec_depend>cartographer_ros</exec_depend>
 
   <!-- Testing dependencies -->

@@ -169,3 +169,16 @@ Window Geometry:
   Width: 1200
   X: 720
   Y: 64
+ Displays:
+  - Alpha: 0.5
+    Class: rviz_default_plugins/Grid
+    # ... (existing displays)
+  - Class: rviz_default_plugins/LaserScan
+    Enabled: true
+    Name: LaserScan
+    Topic: /scan
+    Queue Size: 200  # Increase to handle high-rate data
+    Size (m): 0.05
+    Color: 255; 0; 0  # Red for visibility
+    Alpha: 1.0
+    Frame: laser_frame
